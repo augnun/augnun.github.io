@@ -1,4 +1,7 @@
 ---
+layout: post
+categories: blog
+tags: [ML, blogs]
 title: Machine Learning nas coxas
 date: 2016-04-08T20:01:18-03:00
 ---
