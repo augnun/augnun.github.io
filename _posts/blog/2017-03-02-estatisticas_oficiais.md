@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Estatísticas "oficiais" são ineficientes
-modified:
+title: Futurologia, Modelos, Estatísticas Oficiais, Unicórnios
+excerpt: "Das dificuldades de prever o futuro ou retratar o presente"
 categories: blog
 tags: [política, papers, google]
-date: 2017-03-01T11:00:07-02:00
-update: 2017-03-10T12:00
+date: 2017-03-02T11:00:07-02:00
+modified: 2017-03-10T12:00
 ---
 
-# Prefácio: Futurologia é tipo vender fiado
 
-Eu tenho problemas com futurólogos e adivinhadores. Quando você dá muito peso às especulações infundadas - suas ou dos outros, qualquer balela pode se tornar crível. Quando o Ray Kurzweil diz que a humanidade está _se aproximando da imortalidade_, meu ceticismo é o mesmo de quando eu converso mentalmente com meu gato e ele me diz que não vai encher o saco da outra gata. A diferença é que o senhor Kurzweil tem um excelente emprego no Google, vende livro que nem água, e eu fico aqui escrevendo sobre isso.
+Preciso prefaciar esse texto admitindo que eu tenho problemas com futurólogos e adivinhadores em geral, mesmo os dois não sendo a mesma coisa. Quando você dá muito peso às especulações infundadas - suas ou dos outros, qualquer balela pode se tornar crível. Quando o Ray Kurzweil diz que a humanidade está _se aproximando da imortalidade_, meu ceticismo é o mesmo de quando eu converso mentalmente com meu gato e ele me diz que não vai encher o saco da outra gata. A diferença é que o senhor Kurzweil tem um excelente emprego no Google, vende livro que nem água, e eu fico aqui escrevendo sobre isso.
 
 # Contradizendo o prefácio
 
@@ -22,7 +21,7 @@ Modelos estatísticos são categorias de modelos matemáticos onde (geralmente) 
 
 Indo um pouco mais além desse argumento, algo que me preocupa como estatístico de formação é a obtenção de estatísticas oficiais. A não ser que você seja alguém que acredite que o governo simplesmente não deva existir (mais sobre isso depois) a gente tem um problema administrativo grave quando o assunto são estatísticas oficiais - caras, demoradas/defasadas, relegadas a segundo, terceiro, quarto plano de acordo com os ventos políticos, manipuladas pelo miasma do chorume partidário - a verdade é que _bons_ dados devem informar decisões administrativas dos governos como critérios objetivos.
 
-# Deeply profoundly much learning
+# _Deeply profoundly much learning_ sobre o presente
 
 No fim de fevereiro li um _paper_ interessante no arXiv, cujo título: [_Using Deep Learning and Google Street View to Estimate the Demographic Makeup of the US_](https://arxiv.org/abs/1702.06683), me despertou menos interesse que esse trecho do _abstract_ da parada:
 
@@ -38,4 +37,4 @@ _Cientificamente_ falando, parece balela né? Não há qualquer substancialidade
 
 Na verdade, o estudo da (possível) correlação entre o automóvel que a pessoa possui e sua posição política não é coisa recente: [_Your Car: Politics on Wheels_](http://www.nytimes.com/2005/04/01/automobiles/your-car-politics-on-wheels.html?_r=0) é um artigo de 2005 publicado no NY Times que apresenta uma perspectiva de mercado dessa análise, inclusive citando o fato do Partido Republicano ter contratado consultoria para uma análise nesse sentido para as eleições de 2006.
 
-__Atualização__: O Ian White, do _blog_ Dataconomy [escreveu sobre esse artigo hoje](Your Car: Politics on Wheels) 
+__Atualização__: O Ian White, do _blog_ Dataconomy [escreveu sobre esse artigo hoje](http://dataconomy.com/2017/03/problem-statistical-false-friends/). Ele também é cético quanto as conclusões.
