@@ -22,3 +22,5 @@ Não é minha especialidade, se é que eu tenho uma, mas imagino que estes estud
 
 
 Esses estudos de fMRI não são criticados de hoje, inclusive tem aquele relato anedótico que muitos de nós conhecemos do [salmão que _pensava_ ao ver fotos](http://prefrontal.org/files/posters/Bennett-Salmon-2009.pdf). O único problema é que o salmão foi comprado no mercado já morto _da silva_.
+
+Claro outros falaram muito melhor que eu sobre isso: [Andrew Gelman](http://andrewgelman.com/2016/12/10/fmri-clusterf/) e [o Guillaume Flandin, autor do SPM, um dos _softwares_ de neuroimagem mais utilizados e criticados](https://arxiv.org/pdf/1606.08199v1.pdf).
