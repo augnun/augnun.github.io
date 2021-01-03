@@ -23,4 +23,4 @@ fi
 git commit -m "$msg"
 
 # Push no source e build
-git push origin main
+git push origin master
