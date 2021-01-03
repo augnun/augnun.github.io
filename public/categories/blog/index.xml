@@ -2,13 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="http://augxt.github.io/xml/base.min.xml" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Living in the (Brazilian) end times</title>
-    <link>http://augxt.github.io/categories/</link>
-    <description>Recent content in Categories on Living in the (Brazilian) end times</description>
+    <title>Blog on Living in the (Brazilian) end times</title>
+    <link>http://augxt.github.io/categories/blog/</link>
+    <description>Recent content in Blog on Living in the (Brazilian) end times</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Jan 2021 11:55:30 -0300</lastBuildDate>
-    <atom:link href="http://augxt.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://augxt.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zizek vs Self: On Dangerous Ideas</title>
       <link>http://augxt.github.io/posts/zizek-vs-self/</link>
