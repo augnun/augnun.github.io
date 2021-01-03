@@ -1,0 +1,4 @@
+baseURL = "http://augxt.github.io"
+languageCode = "en-us"
+title = "Living in the (Brazilian) end times"
+theme = "hugo-flex"
