@@ -2,13 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="http://augnun.github.io/xml/base.min.xml" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Politics on Living in the (Brazilian) end times</title>
-    <link>http://augnun.github.io/tags/politics/</link>
-    <description>Recent content in Politics on Living in the (Brazilian) end times</description>
+    <title>Personal Growth on Living in the (Brazilian) end times</title>
+    <link>http://augnun.github.io/tags/personal-growth/</link>
+    <description>Recent content in Personal Growth on Living in the (Brazilian) end times</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jan 2021 11:55:30 -0300</lastBuildDate>
-    <atom:link href="http://augnun.github.io/tags/politics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2021 15:55:44 -0300</lastBuildDate>
+    <atom:link href="http://augnun.github.io/tags/personal-growth/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Organization vs Procastination</title>
       <link>http://augnun.github.io/posts/organization-vs-procastination/</link>
