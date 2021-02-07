@@ -3,7 +3,7 @@ categories:
 - Blog
 title: "The Problem With Disqus"
 date: 2021-02-07T10:52:58-03:00
-draft: true
+draft: false
 tags:
 - Privacy
 ---
