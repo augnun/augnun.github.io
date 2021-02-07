@@ -2,13 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="http://augnun.github.io/xml/base.min.xml" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Living in the (Brazilian) end times</title>
-    <link>http://augnun.github.io/categories/blog/</link>
-    <description>Recent content in Blog on Living in the (Brazilian) end times</description>
+    <title>Meta on Living in the (Brazilian) end times</title>
+    <link>http://augnun.github.io/tags/meta/</link>
+    <description>Recent content in Meta on Living in the (Brazilian) end times</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Jan 2021 11:13:17 -0300</lastBuildDate>
-    <atom:link href="http://augnun.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://augnun.github.io/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why I Moved to Hugo</title>
       <link>http://augnun.github.io/posts/why-i-moved-to-hugo/</link>
