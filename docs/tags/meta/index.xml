@@ -10,6 +10,15 @@
     <lastBuildDate>Wed, 13 Jan 2021 11:13:17 -0300</lastBuildDate>
     <atom:link href="http://augnun.github.io/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The Problem With Disqus</title>
+      <link>http://augnun.github.io/posts/the-problem-with-disqus/</link>
+      <pubDate>Sun, 07 Feb 2021 10:52:58 -0300</pubDate>
+      <guid>http://augnun.github.io/posts/the-problem-with-disqus/</guid>
+      <description>&lt;p&gt;Recently I saw on &lt;a href=&#34;https://news.ycombinator.com&#34;&gt;Hacker News&lt;/a&gt; a very nice blog post about disqus: it always seemed to me like a shady tool, ubiquitous but at the same time leading to some potential privacy risks.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://supunkavinda.blog/disqus&#34;&gt;Supun Kavinda&amp;rsquo;s very nice explanation&lt;/a&gt; puts a light to this problem which.&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Why I Moved to Hugo</title>
       <link>http://augnun.github.io/posts/why-i-moved-to-hugo/</link>
       <pubDate>Wed, 13 Jan 2021 11:13:17 -0300</pubDate>
