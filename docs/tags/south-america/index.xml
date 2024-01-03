@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<?xml-stylesheet type="text/xsl" href="http://augnun.github.io/xml/base.min.xml" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>South America on Living in the (Brazilian) end times</title>
@@ -14,55 +13,7 @@
       <link>http://augnun.github.io/posts/we-lost-leopoldo/</link>
       <pubDate>Mon, 15 Feb 2021 22:08:43 -0300</pubDate>
       <guid>http://augnun.github.io/posts/we-lost-leopoldo/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Leopoldo_Luque&#34;&gt;Leopoldo Luque&lt;/a&gt; died today from Covid-19 complications.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.clarin.com/deportes/revelacion-leopoldo-luque-milicos-secuestraron-robaron-mataron-milagro-_0_Q9jfYGL__.html&#34;&gt;Last year&lt;/a&gt; the Argentinian journal &lt;em&gt;El Clarín&lt;/em&gt; published his chilling account of almost being killed by the Argentinian dictatorship.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>The Problem With Disqus</title>
-      <link>http://augnun.github.io/posts/the-problem-with-disqus/</link>
-      <pubDate>Sun, 07 Feb 2021 10:52:58 -0300</pubDate>
-      <guid>http://augnun.github.io/posts/the-problem-with-disqus/</guid>
-      <description>&lt;p&gt;Recently I saw on &lt;a href=&#34;https://news.ycombinator.com&#34;&gt;Hacker News&lt;/a&gt; a very nice blog post about disqus: it always seemed to me like a shady tool, ubiquitous but at the same time leading to some potential privacy risks.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://supunkavinda.blog/disqus&#34;&gt;Supun Kavinda&amp;rsquo;s very nice explanation&lt;/a&gt; puts a light to this problem which.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Why I Moved to Hugo</title>
-      <link>http://augnun.github.io/posts/why-i-moved-to-hugo/</link>
-      <pubDate>Wed, 13 Jan 2021 11:13:17 -0300</pubDate>
-      <guid>http://augnun.github.io/posts/why-i-moved-to-hugo/</guid>
-      <description>&lt;p&gt;Well, I was very aggravated by Jekyll, Ruby and all it&amp;rsquo;s dependency management, environment setup etc.&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s try using Hugo this time. Maybe I can learn Go and finally kickstart this blogging project.&lt;/p&gt;
-&lt;p&gt;Here goes nothing!&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Organization vs Procastination</title>
-      <link>http://augnun.github.io/posts/organization-vs-procastination/</link>
-      <pubDate>Sun, 03 Jan 2021 15:55:44 -0300</pubDate>
-      <guid>http://augnun.github.io/posts/organization-vs-procastination/</guid>
-      <description>&lt;p&gt;During undergrad school I leaned heavily on &lt;a href=&#34;https://apps.ankiweb.net&#34;&gt;Anki&lt;/a&gt;. It did a really good job on keeping me up with a few hard to grasp concepts and formulas, while &lt;em&gt;muscling up&lt;/em&gt; my memory with many banal stuff in a few harder courses. It was fun, easy and readily actionable, you can get instant feedback on how you&amp;rsquo;re going.&lt;/p&gt;
-&lt;p&gt;Even though I loved it, I haven&amp;rsquo;t touched it properly in years. I&amp;rsquo;ve tried, but memorizing formulas doesn&amp;rsquo;t seem that valuable anymore. I am perfunctorily interesting in learning new languages, and people are really keen on Anki flashcards for this purpose also: they can contain multimedia, formats which differ from the basic front/back etc.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m almost a self-taught english speaker, albeit I&amp;rsquo;m not that secure with my conversational skills. Maybe I&amp;rsquo;ll take a conversation class or make some english speaking friends. I think of myself as possessing a decent fluency in written english, but that&amp;rsquo;s just not enough.&lt;/p&gt;
-&lt;p&gt;But that&amp;rsquo;s not the main point of this: I think Anki is a great tool, but I couldn&amp;rsquo;t separate this from being a chore. To be really effective you have to consistently revisit material, make new notes, delete others etc. I think all systems suppose a certain ammount of upkeep, and I&amp;rsquo;ve tried many, many learning and organizational methods like GTD, ZTD and, most recently, &lt;a href=&#34;https://zettelkasten.de&#34;&gt;&lt;em&gt;Zettelkasten&lt;/em&gt;&lt;/a&gt;, but none of them ignited the fire, the passion that I had while using Anki in college.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Zizek vs Self: On Dangerous Ideas</title>
-      <link>http://augnun.github.io/posts/zizek-vs-self/</link>
-      <pubDate>Sun, 03 Jan 2021 11:55:30 -0300</pubDate>
-      <guid>http://augnun.github.io/posts/zizek-vs-self/</guid>
-      <description>&lt;p&gt;This is an interesting debate between the slovenian philosopher Slavoj Zizek and british author Will Self. I think that they present a important (im)balance between academicism and ideology - represented by Zizek&amp;rsquo;s incessant references and hegelianism and an enormous amount of cinicism and pessimism personified by Self.&lt;/p&gt;
-&lt;p&gt;I love both authors. Self has written a few books which I found quite enjoyable: &lt;a href=&#34;https://www.librarything.com/work/28486&#34;&gt;Great Apes&lt;/a&gt;, &lt;a href=&#34;https://www.librarything.com/work/2451396&#34;&gt;How the Dead Live&lt;/a&gt; and &lt;a href=&#34;https://www.librarything.com/work/752948&#34;&gt;The Book of Dave&lt;/a&gt; alternate between humor which is often dark and twisted, tenderness and societal pessimism. His presentation of &lt;a href=&#34;https://en.wikipedia.org/wiki/Psychogeography&#34;&gt;Psychogeography&lt;/a&gt; is provoking, albeit without much of the revolutionary &lt;em&gt;élan&lt;/em&gt; enforced originally by Debord &lt;em&gt;et caterva&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Zizek has written one of my favorite books: &lt;a href=&#34;https://www.librarything.com/work/8998398&#34;&gt;First as Tragedy, Then as Farce&lt;/a&gt;. Zizek has wit, revolutionary edge and enough political baggage to present a very compelling argument in favor of his flavor of Communism.&lt;/p&gt;
-&lt;p&gt;As always: don&amp;rsquo;t read the video comments. People have greatly misunderstood the interaction between them: they think Self is childish and narcisistic, but he is merely presenting himself as a staunch cynic, pessimist and skeptical of revolutionary action. I don&amp;rsquo;t particularly agree with him specifically in the last point, but I think he presents this sincerely and must be recognized.&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/CId1iOWQUuo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
+      <description>Leopoldo Luque died today from Covid-19 complications.&#xA;Last year the Argentinian journal El Clarín published his chilling account of almost being killed by the Argentinian dictatorship.</description>
     </item>
   </channel>
 </rss>

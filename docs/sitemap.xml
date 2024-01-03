@@ -1,105 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>http://augnun.github.io/categories/blog/</loc>
     <lastmod>2021-02-15T22:08:43-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/categories/</loc>
     <lastmod>2021-02-15T22:08:43-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/</loc>
     <lastmod>2021-02-15T22:08:43-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/tags/politics/</loc>
     <lastmod>2021-02-15T22:08:43-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/posts/</loc>
     <lastmod>2021-02-15T22:08:43-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/tags/soccer/</loc>
     <lastmod>2021-02-15T22:08:43-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/tags/south-america/</loc>
     <lastmod>2021-02-15T22:08:43-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/tags/</loc>
     <lastmod>2021-02-15T22:08:43-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/posts/we-lost-leopoldo/</loc>
     <lastmod>2021-02-15T22:08:43-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/tags/privacy/</loc>
     <lastmod>2021-02-07T10:52:58-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/posts/the-problem-with-disqus/</loc>
     <lastmod>2021-02-07T10:52:58-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/tags/meta/</loc>
     <lastmod>2021-01-13T11:13:17-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/posts/why-i-moved-to-hugo/</loc>
     <lastmod>2021-01-13T11:13:17-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/tags/organization/</loc>
     <lastmod>2021-01-03T15:55:44-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/posts/organization-vs-procastination/</loc>
     <lastmod>2021-01-03T15:55:44-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/tags/personal-growth/</loc>
     <lastmod>2021-01-03T15:55:44-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/tags/self-improvement/</loc>
     <lastmod>2021-01-03T15:55:44-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/tags/books/</loc>
     <lastmod>2021-01-03T11:55:30-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/tags/youtube/</loc>
     <lastmod>2021-01-03T11:55:30-03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://augnun.github.io/posts/zizek-vs-self/</loc>
     <lastmod>2021-01-03T11:55:30-03:00</lastmod>
   </url>
-  
 </urlset>
