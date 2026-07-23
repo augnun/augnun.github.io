@@ -1,5 +1,31 @@
-baseURL = "http://augnun.github.io"
-languageCode = "en-us"
-title = "Living in the (Brazilian) end times"
-theme = "hugo-flex"
-publishDir = "docs"
+base_url = "https://augnun.github.io"      # Domain name of your website
+title = "Blog do Augusto"
+description = "Um blog de divagações, questões e incertezas."
+default_language = "pt"
+theme = "apollo"
+
+compile_sass = true
+
+
+# highlight_code = true
+# highlight_theme = "base16-ocean-dark"
+
+# generate_feed = true
+# feed_filename = "rss.xml"
+
+taxonomies = [{ name = "tags", feed = true},
+              { name = "categories", feed = true }]
+
+
+
+[extra]
+# theme = "auto"
+socials = [
+  # Configure socials here
+]
+menu = [
+  # Configure menu bar here
+]
+
+author = "Augusto Nunes"
+github = "https://github.com/augnun/"

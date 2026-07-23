@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+    <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="base" content="https:&#x2F;&#x2F;augnun.github.io" />
+
+    
+
+    
+
+    
+    
+    
+        <title>
+            
+                Line Highlighting Example
+            
+        </title>
+
+        
+            <meta property="og:title"
+                  content="Line Highlighting Example" />
+        
+    
+
+    
+        
+            <meta property="og:description" content="Um blog de divagações, questões e incertezas." />
+        
+    
+
+    
+        
+            <meta name="description" content="Um blog de divagações, questões e incertezas." />
+        
+    
+
+    
+    
+
+    
+    
+        <link href=https://augnun.github.io/fonts.css rel="stylesheet" />
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+    
+
+    
+    
+
+    
+    
+        <link rel="stylesheet"
+              type="text/css"
+              href="https://augnun.github.io/theme/light.css" />
+        <link id="darkModeStyle"
+              rel="stylesheet"
+              type="text/css"
+              href="https://augnun.github.io/theme/dark.css" />
+    
+
+    
+        
+            <script>
+                var themeToggleMode = "toggle";
+            </script>
+        
+        <script src=https://augnun.github.io/js/themetoggle.js></script>
+
+        
+            <script>
+                setTheme(getSavedTheme());
+            </script>
+        
+    
+
+
+    <link rel="stylesheet"
+          type="text/css"
+          media="screen"
+          href="https://augnun.github.io/main.css" />
+
+    
+
+    
+</head>
+
+
+    <body>
+        
+        <div class="left-content">
+            
+            
+        </div>
+
+        <div class="content">
+            <nav>
+    <div class="left-nav">
+        
+            <a href=https:&#x2F;&#x2F;augnun.github.io>Blog do Augusto</a>
+        
+
+
+        <div class="socials">
+            
+                
+            
+            
+        </div>
+    </div>
+
+    <div class="right-nav">
+        
+
+        
+
+        
+        
+            <a id="dark-mode-toggle"
+               onclick="toggleTheme(); event.preventDefault();"
+               href="#">
+                <img src="https://augnun.github.io/icons/sun.svg" id="sun-icon" alt="Light" />
+                <img src="https://augnun.github.io/icons/moon.svg"
+                     id="moon-icon"
+                     style="filter: invert(1)"
+                     alt="Dark" />
+                
+            </a>
+
+            <!-- Initialize the theme toggle icons -->
+            <script>
+                updateItemToggleTheme()
+            </script>
+        
+    </div>
+</nav>
+
+
+            
+            
+    
+    <div class="visible-element-observer-root" data-selector="main article p">
+        <main>
+            <article>
+                <div class="title">
+                    
+                    
+    
+        <div class="page-header">
+            Line Highlighting Example
+        </div>
+    
+
+
+                    <div class="meta">
+                        
+                            Posted on <time>2026-04-04</time>
+                        
+
+
+                        
+
+                        
+
+                        
+
+                        
+                        
+
+                        
+                        
+
+                        
+                        
+                            <span class="tags-label">::</span>
+                            <span class="tags">
+                                    <a href="https://augnun.github.io/tags/test/"
+                                       class="post-tag">test</a>
+                                
+                            </span>
+                        
+
+                        
+
+                    </div>
+                </div>
+
+                
+
+                <section class="body">
+                    <p>This page demonstrates Zola's <a href="https://www.getzola.org/documentation/content/syntax-highlighting/">code block annotations</a> supported by the Apollo theme.</p>
+<h1 id="line-numbers"><a class="zola-anchor" href="#line-numbers" aria-label="Anchor link for: line-numbers">Line Numbers</a></h1>
+<p>Use <code>linenos</code> to enable line numbering.</p>
+<pre><code>```rust,linenos
+fn main() {
+    println!(&quot;Hello World&quot;);
+    let x = 42;
+}
+```
+</code></pre>
+<pre data-linenos data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust"><table><tbody><tr><td>1</td><td>fn main() {
+</td></tr><tr><td>2</td><td>    println!(&quot;Hello World&quot;);
+</td></tr><tr><td>3</td><td>    let x = 42;
+</td></tr><tr><td>4</td><td>}
+</td></tr></tbody></table></code></pre>
+<h1 id="single-line-highlighting"><a class="zola-anchor" href="#single-line-highlighting" aria-label="Anchor link for: single-line-highlighting">Single Line Highlighting</a></h1>
+<p>Use <code>hl_lines=2</code> to highlight a specific line.</p>
+<pre><code>```rust,linenos,hl_lines=2
+fn main() {
+    println!(&quot;Hello World&quot;);
+    let x = 42;
+}
+```
+</code></pre>
+<pre data-linenos data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust"><table><tbody><tr><td>1</td><td>fn main() {
+</td></tr><tr><td><mark>2</mark></td><td><mark>    println!(&quot;Hello World&quot;);
+</mark></td></tr><tr><td>3</td><td>    let x = 42;
+</td></tr><tr><td>4</td><td>}
+</td></tr></tbody></table></code></pre>
+<h1 id="multi-line-highlighting"><a class="zola-anchor" href="#multi-line-highlighting" aria-label="Anchor link for: multi-line-highlighting">Multi-Line Highlighting</a></h1>
+<p>Use <code>hl_lines=2 3</code> to highlight multiple lines.</p>
+<pre><code>```rust,linenos,hl_lines=2 3
+fn main() {
+    println!(&quot;Hello World&quot;);
+    let x = 42;
+}
+```
+</code></pre>
+<pre data-linenos data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust"><table><tbody><tr><td>1</td><td>fn main() {
+</td></tr><tr><td><mark>2</mark></td><td><mark>    println!(&quot;Hello World&quot;);
+</mark></td></tr><tr><td><mark>3</mark></td><td><mark>    let x = 42;
+</mark></td></tr><tr><td>4</td><td>}
+</td></tr></tbody></table></code></pre>
+<h1 id="range-highlighting"><a class="zola-anchor" href="#range-highlighting" aria-label="Anchor link for: range-highlighting">Range Highlighting</a></h1>
+<p>Use <code>hl_lines=1-3</code> to highlight a range of lines.</p>
+<pre><code>```rust,linenos,hl_lines=1-3
+fn main() {
+    println!(&quot;Hello World&quot;);
+    let x = 42;
+}
+```
+</code></pre>
+<pre data-linenos data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust"><table><tbody><tr><td><mark>1</mark></td><td><mark>fn main() {
+</mark></td></tr><tr><td><mark>2</mark></td><td><mark>    println!(&quot;Hello World&quot;);
+</mark></td></tr><tr><td><mark>3</mark></td><td><mark>    let x = 42;
+</mark></td></tr><tr><td>4</td><td>}
+</td></tr></tbody></table></code></pre>
+<h1 id="custom-line-number-start"><a class="zola-anchor" href="#custom-line-number-start" aria-label="Anchor link for: custom-line-number-start">Custom Line Number Start</a></h1>
+<p>Use <code>linenostart=10</code> to start line numbers at a specific value.</p>
+<pre><code>```rust,linenos,linenostart=10
+fn main() {
+    println!(&quot;Hello World&quot;);
+    let x = 42;
+}
+```
+</code></pre>
+<pre data-linenos data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust"><table><tbody><tr><td>10</td><td>fn main() {
+</td></tr><tr><td>11</td><td>    println!(&quot;Hello World&quot;);
+</td></tr><tr><td>12</td><td>    let x = 42;
+</td></tr><tr><td>13</td><td>}
+</td></tr></tbody></table></code></pre>
+<h1 id="hidden-lines"><a class="zola-anchor" href="#hidden-lines" aria-label="Anchor link for: hidden-lines">Hidden Lines</a></h1>
+<p>Use <code>hide_lines=2</code> to hide specific lines from the output.</p>
+<pre><code>```rust,linenos,hide_lines=2
+fn main() {
+    println!(&quot;Hello World&quot;);
+    let x = 42;
+}
+```
+</code></pre>
+<pre data-linenos data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust"><table><tbody><tr><td>1</td><td>fn main() {
+</td></tr><tr><td>3</td><td>    let x = 42;
+</td></tr><tr><td>4</td><td>}
+</td></tr></tbody></table></code></pre>
+
+                </section>
+            </article>
+        </main>
+    </div>
+
+
+
+            
+                
+            
+
+            
+        </div>
+
+        <div class="right-content">
+            
+    
+    
+
+        </div>
+        
+    </body>
+
+</html>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt">
+    <title>Blog do Augusto - test</title>
+    <subtitle>Um blog de divagações, questões e incertezas.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://augnun.github.io/tags/test/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://augnun.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-04-04T00:00:00+00:00</updated>
+    <id>https://augnun.github.io/tags/test/atom.xml</id>
+    <entry xml:lang="pt">
+        <title>Line Highlighting Example</title>
+        <published>2026-04-04T00:00:00+00:00</published>
+        <updated>2026-04-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://augnun.github.io/posts/linenos-test/"/>
+        <id>https://augnun.github.io/posts/linenos-test/</id>
+        
+        <content type="html" xml:base="https://augnun.github.io/posts/linenos-test/">&lt;p&gt;This page demonstrates Zola&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;syntax-highlighting&#x2F;&quot;&gt;code block annotations&lt;&#x2F;a&gt; supported by the Apollo theme.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;line-numbers&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#line-numbers&quot; aria-label=&quot;Anchor link for: line-numbers&quot;&gt;Line Numbers&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Use &lt;code&gt;linenos&lt;&#x2F;code&gt; to enable line numbering.&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;```rust,linenos
+fn main() {
+    println!(&amp;quot;Hello World&amp;quot;);
+    let x = 42;
+}
+```
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-linenos data-lang=&quot;rust&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;fn main() {
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;    println!(&amp;quot;Hello World&amp;quot;);
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;    let x = 42;
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;}
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;single-line-highlighting&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#single-line-highlighting&quot; aria-label=&quot;Anchor link for: single-line-highlighting&quot;&gt;Single Line Highlighting&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Use &lt;code&gt;hl_lines=2&lt;&#x2F;code&gt; to highlight a specific line.&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;```rust,linenos,hl_lines=2
+fn main() {
+    println!(&amp;quot;Hello World&amp;quot;);
+    let x = 42;
+}
+```
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-linenos data-lang=&quot;rust&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;fn main() {
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;mark&gt;2&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;mark&gt;    println!(&amp;quot;Hello World&amp;quot;);
+&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;    let x = 42;
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;}
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;multi-line-highlighting&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#multi-line-highlighting&quot; aria-label=&quot;Anchor link for: multi-line-highlighting&quot;&gt;Multi-Line Highlighting&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Use &lt;code&gt;hl_lines=2 3&lt;&#x2F;code&gt; to highlight multiple lines.&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;```rust,linenos,hl_lines=2 3
+fn main() {
+    println!(&amp;quot;Hello World&amp;quot;);
+    let x = 42;
+}
+```
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-linenos data-lang=&quot;rust&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;fn main() {
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;mark&gt;2&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;mark&gt;    println!(&amp;quot;Hello World&amp;quot;);
+&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;mark&gt;3&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;mark&gt;    let x = 42;
+&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;}
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;range-highlighting&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#range-highlighting&quot; aria-label=&quot;Anchor link for: range-highlighting&quot;&gt;Range Highlighting&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Use &lt;code&gt;hl_lines=1-3&lt;&#x2F;code&gt; to highlight a range of lines.&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;```rust,linenos,hl_lines=1-3
+fn main() {
+    println!(&amp;quot;Hello World&amp;quot;);
+    let x = 42;
+}
+```
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-linenos data-lang=&quot;rust&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;mark&gt;1&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;mark&gt;fn main() {
+&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;mark&gt;2&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;mark&gt;    println!(&amp;quot;Hello World&amp;quot;);
+&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;mark&gt;3&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;mark&gt;    let x = 42;
+&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;}
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;custom-line-number-start&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#custom-line-number-start&quot; aria-label=&quot;Anchor link for: custom-line-number-start&quot;&gt;Custom Line Number Start&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Use &lt;code&gt;linenostart=10&lt;&#x2F;code&gt; to start line numbers at a specific value.&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;```rust,linenos,linenostart=10
+fn main() {
+    println!(&amp;quot;Hello World&amp;quot;);
+    let x = 42;
+}
+```
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-linenos data-lang=&quot;rust&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;10&lt;&#x2F;td&gt;&lt;td&gt;fn main() {
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;11&lt;&#x2F;td&gt;&lt;td&gt;    println!(&amp;quot;Hello World&amp;quot;);
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;12&lt;&#x2F;td&gt;&lt;td&gt;    let x = 42;
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;13&lt;&#x2F;td&gt;&lt;td&gt;}
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;hidden-lines&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hidden-lines&quot; aria-label=&quot;Anchor link for: hidden-lines&quot;&gt;Hidden Lines&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Use &lt;code&gt;hide_lines=2&lt;&#x2F;code&gt; to hide specific lines from the output.&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;```rust,linenos,hide_lines=2
+fn main() {
+    println!(&amp;quot;Hello World&amp;quot;);
+    let x = 42;
+}
+```
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-linenos data-lang=&quot;rust&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;fn main() {
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;    let x = 42;
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;}
+&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+</feed>

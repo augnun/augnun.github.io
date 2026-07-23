@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+    <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="base" content="https:&#x2F;&#x2F;augnun.github.io" />
+
+    
+
+    
+
+    
+    
+    
+        <title>
+            
+                Configuring Apollo
+            
+        </title>
+
+        
+            <meta property="og:title"
+                  content="Configuring Apollo" />
+        
+    
+
+    
+        
+            <meta property="og:description" content="Um blog de divagações, questões e incertezas." />
+        
+    
+
+    
+        
+            <meta name="description" content="Um blog de divagações, questões e incertezas." />
+        
+    
+
+    
+    
+
+    
+    
+        <link href=https://augnun.github.io/fonts.css rel="stylesheet" />
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+    
+
+    
+    
+
+    
+    
+        <link rel="stylesheet"
+              type="text/css"
+              href="https://augnun.github.io/theme/light.css" />
+        <link id="darkModeStyle"
+              rel="stylesheet"
+              type="text/css"
+              href="https://augnun.github.io/theme/dark.css" />
+    
+
+    
+        
+            <script>
+                var themeToggleMode = "toggle";
+            </script>
+        
+        <script src=https://augnun.github.io/js/themetoggle.js></script>
+
+        
+            <script>
+                setTheme(getSavedTheme());
+            </script>
+        
+    
+
+
+    <link rel="stylesheet"
+          type="text/css"
+          media="screen"
+          href="https://augnun.github.io/main.css" />
+
+    
+
+    
+</head>
+
+
+    <body>
+        
+        <div class="left-content">
+            
+            
+        </div>
+
+        <div class="content">
+            <nav>
+    <div class="left-nav">
+        
+            <a href=https:&#x2F;&#x2F;augnun.github.io>Blog do Augusto</a>
+        
+
+
+        <div class="socials">
+            
+                
+            
+            
+        </div>
+    </div>
+
+    <div class="right-nav">
+        
+
+        
+
+        
+        
+            <a id="dark-mode-toggle"
+               onclick="toggleTheme(); event.preventDefault();"
+               href="#">
+                <img src="https://augnun.github.io/icons/sun.svg" id="sun-icon" alt="Light" />
+                <img src="https://augnun.github.io/icons/moon.svg"
+                     id="moon-icon"
+                     style="filter: invert(1)"
+                     alt="Dark" />
+                
+            </a>
+
+            <!-- Initialize the theme toggle icons -->
+            <script>
+                updateItemToggleTheme()
+            </script>
+        
+    </div>
+</nav>
+
+
+            
+            
+    
+    <div class="visible-element-observer-root" data-selector="main article p">
+        <main>
+            <article>
+                <div class="title">
+                    
+                    
+    
+        <div class="page-header">
+            Configuring Apollo
+        </div>
+    
+
+
+                    <div class="meta">
+                        
+                            Posted on <time>2024-07-09</time>
+                        
+
+
+                        
+
+                        
+
+                        
+
+                        
+                        
+                            
+                            
+                                
+                            
+
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                            <span class="tags-label">::</span>
+                            <span class="tags">
+                                    <a href="https://augnun.github.io/tags/documentation/"
+                                       class="post-tag">documentation</a>
+                                
+                            </span>
+                        
+
+                        
+
+                    </div>
+                </div>
+
+                
+
+                <section class="body">
+                    <h1 id="site-configuration"><a class="zola-anchor" href="#site-configuration" aria-label="Anchor link for: site-configuration">Site Configuration</a></h1>
+<h2 id="search-build-search-index"><a class="zola-anchor" href="#search-build-search-index" aria-label="Anchor link for: search-build-search-index">Search (<code>build_search_index</code>)</a></h2>
+<p>Enables or disables the search functionality for your blog.</p>
+<ul>
+<li>Type: Boolean</li>
+<li>Default: false</li>
+<li>Usage: <code>build_search_index = false</code></li>
+</ul>
+<p>When enabled, a search index will be generated for your blog, allowing visitors to search for specific content.
+Additionally, a search button will be displayed in the navigation bar.</p>
+<p>Configure the search like this:</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">build_search_index = true
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = &quot;elasticlunr_json&quot;
+</code></pre>
+<h2 id="theme-mode-theme"><a class="zola-anchor" href="#theme-mode-theme" aria-label="Anchor link for: theme-mode-theme">Theme Mode (<code>theme</code>)</a></h2>
+<p>Sets the color theme for your blog.</p>
+<ul>
+<li>Type: String</li>
+<li>Options:
+<ul>
+<li>"light": Always using the light theme</li>
+<li>"dark": Always using the dark theme</li>
+<li>"auto": Automatically uses the system theme</li>
+<li>"toggle": Shows a button to switch between light and dark themes</li>
+<li>"toggle-auto": Shows a button to cycle through light, dark, and auto (system default) themes</li>
+</ul>
+</li>
+<li>Default: "toggle"</li>
+<li>Usage: <code>theme = "toggle"</code></li>
+</ul>
+<h2 id="menu"><a class="zola-anchor" href="#menu" aria-label="Anchor link for: menu">Menu</a></h2>
+<p>Defines the navigation menu items for your blog.</p>
+<ul>
+<li>Type: Array of objects</li>
+<li>Default: []</li>
+<li>Usage:<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">menu = [
+  { name = &quot;&#x2F;posts&quot;, url = &quot;&#x2F;posts&quot;, weight = 1 },
+  { name = &quot;&#x2F;projects&quot;, url = &quot;&#x2F;projects&quot;, weight = 2 },
+  { name = &quot;&#x2F;about&quot;, url = &quot;&#x2F;about&quot;, weight = 3 },
+  { name = &quot;&#x2F;tags&quot;, url = &quot;&#x2F;tags&quot;, weight = 4 },
+]
+</code></pre>
+</li>
+</ul>
+<h2 id="logo"><a class="zola-anchor" href="#logo" aria-label="Anchor link for: logo">Logo</a></h2>
+<p>Defines the site logo image file.</p>
+<ul>
+<li>Type: String</li>
+<li>Usage:<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">logo = &quot;site_logo.svg&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="socials"><a class="zola-anchor" href="#socials" aria-label="Anchor link for: socials">Socials</a></h2>
+<p>Defines the social media links.</p>
+<ul>
+<li>Type: Array of objects</li>
+<li>Default: []</li>
+<li>Usage:<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">socials = [
+  { name = &quot;twitter&quot;, url = &quot;https:&#x2F;&#x2F;twitter.com&#x2F;not_matthias&quot;, icon = &quot;twitter&quot; },
+  { name = &quot;github&quot;, url = &quot;https:&#x2F;&#x2F;github.com&#x2F;not-matthias&#x2F;&quot;, icon = &quot;github&quot; },
+]
+</code></pre>
+</li>
+</ul>
+<p>Social links will open in a new tab if <code>external_links_target_blank</code> is set to <code>true</code> in the <code>[markdown]</code> section of your config.</p>
+<h2 id="table-of-contents-toc"><a class="zola-anchor" href="#table-of-contents-toc" aria-label="Anchor link for: table-of-contents-toc">Table of Contents (<code>toc</code>)</a></h2>
+<p>Enables or disables the table of contents for posts.</p>
+<ul>
+<li>Type: Boolean</li>
+<li>Default: true</li>
+<li>Usage: <code>toc = true</code></li>
+</ul>
+<p>When enabled, a table of contents will be generated for posts, making it easier for readers to navigate through longer articles.</p>
+<p>Note: This feature adds additional JavaScript to your site.</p>
+<h2 id="cdn-usage-use-cdn"><a class="zola-anchor" href="#cdn-usage-use-cdn" aria-label="Anchor link for: cdn-usage-use-cdn">CDN Usage (<code>use_cdn</code>)</a></h2>
+<p>Determines whether to use a Content Delivery Network (CDN) for assets.</p>
+<ul>
+<li>Type: Boolean</li>
+<li>Default: false</li>
+<li>Usage: <code>use_cdn = false</code></li>
+</ul>
+<p>When set to true, the theme will attempt to load assets from a CDN, which can improve loading times for visitors from different geographic locations.</p>
+<h2 id="favicon-favicon"><a class="zola-anchor" href="#favicon-favicon" aria-label="Anchor link for: favicon-favicon">Favicon (<code>favicon</code>)</a></h2>
+<p>Specifies the path to the favicon image for your blog.</p>
+<ul>
+<li>Type: String</li>
+<li>Default: "/icon/favicon.png"</li>
+<li>Usage: <code>favicon = "/icon/favicon.png"</code></li>
+</ul>
+<p>This sets the small icon that appears in the browser tab for your website.</p>
+<h2 id="custom-stylesheets-stylesheets"><a class="zola-anchor" href="#custom-stylesheets-stylesheets" aria-label="Anchor link for: custom-stylesheets-stylesheets">Custom Stylesheets (<code>stylesheets</code>)</a></h2>
+<p>Allows you to add custom stylesheets to your blog.</p>
+<ul>
+<li>Type: Array of files located in the <code>static</code> directory</li>
+<li>Default: []</li>
+<li>Usage:<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">stylesheets = [
+  &quot;custom.css&quot;,           # static&#x2F;custom.css
+  &quot;&#x2F;css&#x2F;another.css&quot;      # static&#x2F;css&#x2F;another.css
+]
+</code></pre>
+</li>
+</ul>
+<h2 id="custom-head-body-html"><a class="zola-anchor" href="#custom-head-body-html" aria-label="Anchor link for: custom-head-body-html">Custom Head / Body HTML</a></h2>
+<p>Allows you to inject arbitrary HTML into <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code> without modifying the theme's templates. This is useful for adding custom <code>&lt;meta&gt;</code> tags, inline styles with Tera logic, third-party scripts, or anything else that <code>stylesheets</code> can't cover.</p>
+<p>To use, create the corresponding file in your site's <code>templates/apollo/</code> directory:</p>
+<ul>
+<li><code>head_start.html</code> — injected at the start of <code>&lt;head&gt;</code></li>
+<li><code>head_end.html</code> — injected at the end of <code>&lt;head&gt;</code></li>
+<li><code>body_start.html</code> — injected at the start of <code>&lt;body&gt;</code></li>
+<li><code>body_end.html</code> — injected at the end of <code>&lt;body&gt;</code></li>
+</ul>
+<p>These files are optional. If they don't exist, nothing is injected.</p>
+<p><strong>Example</strong> <code>templates/apollo/head_end.html</code>:</p>
+<pre data-lang="html" class="language-html "><code class="language-html" data-lang="html">&lt;style&gt;
+  :root { --accent-color: #ff6600; }
+&lt;&#x2F;style&gt;
+&lt;meta name=&quot;custom-tag&quot; content=&quot;value&quot; &#x2F;&gt;
+</code></pre>
+<p><strong>Example</strong> <code>templates/apollo/body_end.html</code>:</p>
+<pre data-lang="html" class="language-html "><code class="language-html" data-lang="html">&lt;script src=&quot;https:&#x2F;&#x2F;example.com&#x2F;widget.js&quot; defer&gt;&lt;&#x2F;script&gt;
+</code></pre>
+<p>Since these are full Tera templates, you can use conditionals, macros, and access <code>config</code>, <code>page</code>, and <code>section</code> variables.</p>
+<h2 id="fancy-code-styling-fancy-code"><a class="zola-anchor" href="#fancy-code-styling-fancy-code" aria-label="Anchor link for: fancy-code-styling-fancy-code">Fancy Code Styling (<code>fancy_code</code>)</a></h2>
+<p>Enables enhanced styling for code blocks.</p>
+<ul>
+<li>Type: Boolean</li>
+<li>Default: true</li>
+<li>Usage: <code>fancy_code = true</code></li>
+</ul>
+<p>This option adds the language label and a copy button.</p>
+<h2 id="dynamic-notes-dynamic-note"><a class="zola-anchor" href="#dynamic-notes-dynamic-note" aria-label="Anchor link for: dynamic-notes-dynamic-note">Dynamic Notes (<code>dynamic_note</code>)</a></h2>
+<p>Allows for the creation of togglable note sections in your content.</p>
+<ul>
+<li>Type: Boolean</li>
+<li>Default: true</li>
+<li>Usage: <code>dynamic_note = true</code></li>
+</ul>
+<p>When enabled, you can create expandable/collapsible note sections in your blog posts.</p>
+<h2 id="character-shortcodes"><a class="zola-anchor" href="#character-shortcodes" aria-label="Anchor link for: character-shortcodes">Character Shortcodes</a></h2>
+<p>We support custom character shortcodes for adding dialogue and interactive characters to your blog posts. You can use them via <a href="https://www.getzola.org/documentation/content/shortcodes/">shortcodes</a>:</p>
+<pre><code>{{ &#x2F;* character(name=&quot;character-name&quot;, body=&quot;Character dialogue text&quot;) *&#x2F; }}
+</code></pre>
+<p>These are the supported parameters:</p>
+<ul>
+<li><code>name</code> (optional): The identifier for the character. Used to determine styling and appearance.</li>
+<li><code>body</code> (optional): The dialogue text for the character. Works with inline shortcodes.</li>
+<li><code>position</code> (optional): Position the character on the left or right. Values: "left" or default (right)</li>
+</ul>
+
+
+
+
+
+
+<div class="character-note character-hooded character-comment character-right">
+    <div class="character-avatar">
+        
+            <img src="https://augnun.github.io/images/characters/hooded.png"
+                 alt="hooded"
+                 width="80"
+                 height="80" />
+        
+    </div>
+    <div class="character-content">
+        <div class="character-bubble">
+            <p>Isn't it amazing?</p>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="character-note character-hooded character-comment character-left">
+    <div class="character-avatar">
+        
+            <img src="https://augnun.github.io/images/characters/hooded.png"
+                 alt="hooded"
+                 width="80"
+                 height="80" />
+        
+    </div>
+    <div class="character-content">
+        <div class="character-bubble">
+            <p>Yes! And it's really easy to use</p>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="character-note character-hooded character-comment character-right">
+    <div class="character-avatar">
+        
+            <img src="https://augnun.github.io/images/characters/hooded.png"
+                 alt="hooded"
+                 width="80"
+                 height="80" />
+        
+    </div>
+    <div class="character-content">
+        <div class="character-bubble">
+            <p>We can even use multiple lines with code:</p>
+<pre data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust">fn main() {
+  println!(&quot;Hey there!&quot;);
+}
+</code></pre>
+
+        </div>
+    </div>
+</div>
+<h2 id="anchor-links"><a class="zola-anchor" href="#anchor-links" aria-label="Anchor link for: anchor-links">Anchor Links</a></h2>
+<p>You can add anchor links by adding the following to your <code>_index.md</code>:</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">insert_anchor_links = &quot;heading&quot;
+</code></pre>
+<h2 id="taxonomy-sorting"><a class="zola-anchor" href="#taxonomy-sorting" aria-label="Anchor link for: taxonomy-sorting">Taxonomy sorting</a></h2>
+<p>You can sort the taxonomies page with the following config:</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">[extra.taxonomies]
+sort_by = &quot;page_count&quot;         # e.g. name, page_count
+reverse = true
+</code></pre>
+<p>The <code>sort_by</code> argument is directly passed to the <code>sort_by</code> function:</p>
+<pre data-lang="jinja" class="language-jinja "><code class="language-jinja" data-lang="jinja">{% set sort_by = config.extra.taxonomies.sort_by | default(value=&quot;name&quot;) %}
+{% set terms = terms | default(value=[]) | sort(attribute=sort_by) %}
+
+{% if config.extra.taxonomies.reverse | default(value=false) %}
+    {% set terms = terms | reverse %}
+{% endif %}
+
+{% for term in terms %}
+    &lt;li&gt;
+        &lt;a href=&quot;{{ term.permalink | safe }}&quot;&gt;
+            {{ term.name }} ({{ term.pages | length }} post{{ term.pages | length | pluralize }})
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;li&gt;
+{% endfor %}
+</code></pre>
+<p>Possible values include anything within the <a href="https://www.getzola.org/documentation/templates/taxonomies/">TaxonomyTerm object</a>:</p>
+<pre data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust">name: String;
+slug: String;
+path: String;
+permalink: String;
+pages: Array&lt;Page&gt;;
+page_count: Number;
+</code></pre>
+<p>Examples:</p>
+<ul>
+<li><code>name</code> to sort by name</li>
+<li><code>page_count</code> to sort by page count</li>
+</ul>
+<h2 id="analytics"><a class="zola-anchor" href="#analytics" aria-label="Anchor link for: analytics">Analytics</a></h2>
+<p>Enable or disable analytics tracking:</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">[extra.analytics]
+enabled = false
+</code></pre>
+<p>After enabling analytics, configure GoatCounter or Umami.</p>
+<h3 id="goatcounter"><a class="zola-anchor" href="#goatcounter" aria-label="Anchor link for: goatcounter">GoatCounter</a></h3>
+<p>Configure GoatCounter analytics:</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">[extra.analytics.goatcounter]
+user = &quot;your_user&quot;           # Your GoatCounter username
+host = &quot;example.com&quot;         # Optional: Custom host
+</code></pre>
+<h3 id="umami-analytics"><a class="zola-anchor" href="#umami-analytics" aria-label="Anchor link for: umami-analytics">Umami Analytics</a></h3>
+<p>Configure Umami analytics:</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">[extra.analytics.umami]
+website_id = &quot;43929cd1-1e83....&quot;                    # Your Umami website ID
+host_url = &quot;https:&#x2F;&#x2F;stats.mywebsite.com&quot;            # Optional: Custom host URL
+</code></pre>
+<h2 id="fediverse-author-attribution"><a class="zola-anchor" href="#fediverse-author-attribution" aria-label="Anchor link for: fediverse-author-attribution">Fediverse Author Attribution</a></h2>
+<p>Enable fediverse author attribution to add a meta tag for fediverse platforms:</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">[extra]
+fediverse = true
+fediverse_creator = &quot;@user@instance.social&quot;
+</code></pre>
+<ul>
+<li>Type: Boolean</li>
+<li>Default: false</li>
+<li>Usage: <code>fediverse = true</code></li>
+</ul>
+<p>When enabled, this adds a <code>fediverse:creator</code> meta tag to your site's HTML header, allowing fediverse platforms to attribute content to your account. Set <code>fediverse_creator</code> to your fediverse handle in the format <code>@user@instance</code>.</p>
+<hr />
+<h1 id="page-configuration"><a class="zola-anchor" href="#page-configuration" aria-label="Anchor link for: page-configuration">Page configuration</a></h1>
+<h2 id="source-code-repo-view"><a class="zola-anchor" href="#source-code-repo-view" aria-label="Anchor link for: source-code-repo-view">Source code (<code>repo_view</code>)</a></h2>
+<p>Do you want to link to the source code of your blog post? You can turn on the <code>repo_view</code> inside the <code>[extra]</code> section of your blog post.</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">[extra]
+repo_view = true
+repo_url = &quot;https:&#x2F;&#x2F;github.com&#x2F;not-matthias&#x2F;apollo&#x2F;tree&#x2F;main&#x2F;content&quot; # Alternatively add the repo here
+</code></pre>
+<p>The <code>repo_url</code> can be set in the <code>[extra]</code> section or in your <code>config.toml</code>.</p>
+<h2 id="mathjax-mathjax"><a class="zola-anchor" href="#mathjax-mathjax" aria-label="Anchor link for: mathjax-mathjax">MathJax (<code>mathjax</code>)</a></h2>
+<p>Enables MathJax for rendering mathematical equations.</p>
+<ul>
+<li>Type: Boolean</li>
+<li>Default: false</li>
+</ul>
+<p>MathJax can be enabled globally (loads on every page) or per-page (loads only where needed).</p>
+<p><strong>Per-page</strong>: add to a post's front matter</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">+++
+title = &quot;My Math Post&quot;
+
+[extra]
+mathjax = true
++++
+</code></pre>
+<p><strong>Global</strong>: add to your <code>config.toml</code></p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">[extra]
+mathjax = true
+</code></pre>
+<p>Inline <code>$...$</code> math is always enabled when MathJax is active.</p>
+<p>See <a href="https://github.com/not-matthias/apollo/blob/main/content/posts/math-symbol.md">math-symbol.md</a> for a full example.</p>
+<h2 id="comments-comment"><a class="zola-anchor" href="#comments-comment" aria-label="Anchor link for: comments-comment">Comments (<code>comment</code>)</a></h2>
+<p>Enables or disables the comment system for posts.</p>
+<ul>
+<li>Type: Boolean</li>
+<li>Default: false</li>
+<li>Usage: <code>comment = false</code></li>
+</ul>
+<p>After making <code>comment = true</code> in <code>[extra]</code> section of you post, save your script from <a href="https://giscus.app">Giscus</a> to <code>templates/_giscus_script.html</code>.
+When enabled, this allows readers to leave comments on your blog posts. This feature has to be set for each individual post and is not supported at higher levels.</p>
+<p>Example configuration in <a href="https://github.com/not-matthias/apollo/blob/main/content/posts/configuration.md">content/posts/configuration.md</a>:</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">+++
+title = &quot;Configuring Apollo&quot;
+
+[extra]
+comment = true
++++
+</code></pre>
+<p>Comments via <a href="https://utteranc.es">utterances</a> can be configured in <code>template/_giscus_script.html</code> like this:</p>
+<pre data-lang="html" class="language-html "><code class="language-html" data-lang="html">&lt;script src=&quot;https:&#x2F;&#x2F;utteranc.es&#x2F;client.js&quot;
+        repo=&quot;YOUR_NAME&#x2F;YOUR_REPO&quot;
+        issue-term=&quot;pathname&quot;
+        theme=&quot;github-light&quot;
+        crossorigin=&quot;anonymous&quot;
+        async&gt;
+&lt;&#x2F;script&gt;
+</code></pre>
+<h1 id="cards-page"><a class="zola-anchor" href="#cards-page" aria-label="Anchor link for: cards-page">Cards Page</a></h1>
+<p>The <code>cards.html</code> template allows you to display a list of items in a card format. This is ideal for showcasing projects, but can be used for any list of items you want to display in a visually appealing way.</p>
+<p>To create a cards page, you need to create a <code>_index.md</code> file in a content directory (e.g., <code>content/projects</code>). The following front matter is recommended:</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">+++
+title = &quot;Projects&quot;
+sort_by = &quot;weight&quot;
+template = &quot;cards.html&quot;
+[extra]
+cards_columns = 3
+card_media_height = 200
++++
+</code></pre>
+<ul>
+<li><code>cards_columns</code>: Set exact number of columns (2, 3, 4) or omit for default 2-column layout</li>
+<li><code>card_media_height</code>: Control the height of card media area in pixels (default: 300)</li>
+</ul>
+<p>Each item in the list should be a separate markdown file in the same directory. The following front matter is supported:</p>
+<ul>
+<li><code>title</code>: The title of the item.</li>
+<li><code>description</code>: A short description of the item.</li>
+<li><code>weight</code>: The order in which the item appears on the page.</li>
+<li><code>local_image</code>: A path to a local image for the item's thumbnail. See the <a href="https://augnun.github.io/posts/configuration/#local-image">Local Image</a> section for more details.</li>
+<li><code>local_video</code>: A path to a local video for the item's thumbnail. See the <a href="https://augnun.github.io/posts/configuration/#local-video">Local Video</a> section for more details.</li>
+<li><code>remote_video</code>: A URL to a remote video for the item's thumbnail.</li>
+<li><code>link_to</code>: A URL the card should link to.</li>
+<li><code>github</code>: A URL to item's github repository.</li>
+<li><code>demo</code>: A URL to item's demo deployment.</li>
+<li><code>card_links</code>: an array of items describing additional links, each containing:
+<ul>
+<li><code>url</code>: the link's URL,</li>
+<li><code>text</code>: the link's text (like <code>"GitHub"</code> or <code>"crates.io"</code>),</li>
+<li><code>icon</code>: <em>(optional)</em> a social icon, as in <a href="https://augnun.github.io/posts/configuration/#socials">Socials</a>.</li>
+</ul>
+</li>
+</ul>
+<h1 id="talks-page"><a class="zola-anchor" href="#talks-page" aria-label="Anchor link for: talks-page">Talks Page</a></h1>
+<p>To create a talks page, you need to create a <code>_index.md</code> file in the <code>content/talks</code> directory. The following front matter is recommended:</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">+++
+title = &quot;Talks&quot;
+sort_by = &quot;date&quot;
+template = &quot;talks.html&quot;
++++
+</code></pre>
+<p>Each talk should be a separate markdown file in the <code>content/talks</code> directory. The following front matter is supported:</p>
+<ul>
+<li><code>title</code>: The title of the talk.</li>
+<li><code>description</code>: A short description of the talk.</li>
+<li><code>date</code>: The date of the talk (displayed with a calendar icon).</li>
+<li><code>local_image</code>: A path to a local image for the item's thumbnail. See the <a href="https://augnun.github.io/posts/configuration/#local-image">Local Image</a> section for more details.</li>
+<li><code>video</code>: A map with a <code>link</code> and <code>thumbnail</code> for the talk video.</li>
+<li><code>organizer</code>: A map with a <code>name</code> and <code>link</code> for the event organizer (displayed with a location icon).</li>
+<li><code>slides</code>: A URL to the presentation slides.</li>
+<li><code>code</code>: A URL to the source code.</li>
+</ul>
+<h1 id="local-image"><a class="zola-anchor" href="#local-image" aria-label="Anchor link for: local-image">Local Image</a></h1>
+<p>The <code>local_image</code> front matter parameter allows you to specify a path to a local image that will be used as the thumbnail for a page. This is particularly useful for social media previews and other places where a representative image is needed.</p>
+<p>The path resolution for <code>local_image</code> works as follows:</p>
+<ul>
+<li>If the path starts with a <code>/</code>, it is treated as an absolute path from the <code>content</code> directory. For example, <code>local_image = "/projects/project-1.jpg"</code> will resolve to <code>content/projects/project-1.jpg</code>.</li>
+<li>If the path does not start with a <code>/</code>, it is treated as a relative path. The theme will prepend the <code>section.path</code> to the <code>local_image</code> path. For example, if you are in a page at <code>content/posts/my-post/index.md</code> and you set <code>local_image = "thumbnail.png"</code>, the theme will look for the image at <code>posts/my-post/thumbnail.png</code>.</li>
+</ul>
+<h1 id="local-video"><a class="zola-anchor" href="#local-video" aria-label="Anchor link for: local-video">Local Video</a></h1>
+<p>The <code>local_video</code> front matter parameter allows you to specify a path to a local video file that will be displayed as the thumbnail for a page. This is particularly useful for showcasing projects with dynamic content.</p>
+<p>The path resolution for <code>local_video</code> works the same as <code>local_image</code>:</p>
+<ul>
+<li>If the path starts with a <code>/</code>, it is treated as an absolute path from the <code>content</code> directory. For example, <code>local_video = "/projects/demo.mp4"</code> will resolve to <code>content/projects/demo.mp4</code>.</li>
+<li>If the path does not start with a <code>/</code>, it is treated as a relative path. The theme will prepend the <code>section.path</code> to the <code>local_video</code> path. For example, if you are in a page at <code>content/projects/my-project/index.md</code> and you set <code>local_video = "demo.webm"</code>, the theme will look for the video at <code>projects/my-project/demo.webm</code>.</li>
+</ul>
+<h2 id="remote-video"><a class="zola-anchor" href="#remote-video" aria-label="Anchor link for: remote-video">Remote Video</a></h2>
+<p>The <code>remote_video</code> front matter parameter allows you to specify a URL to a remote video file that will be displayed as the thumbnail for a page.</p>
+<p>Example usage:</p>
+<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">[extra]
+remote_video = &quot;https:&#x2F;&#x2F;example.com&#x2F;videos&#x2F;demo.mp4&quot;
+</code></pre>
+<p>The browser will automatically detect the video format, so you don't need to worry about specifying the MIME type.</p>
+
+                </section>
+            </article>
+        </main>
+    </div>
+
+
+
+            
+                
+            
+
+            
+                <div class="giscus">
+                </div>
+                <script src="https://utteranc.es/client.js" repo="YOUR_NAME/YOUR_REPO" issue-term="pathname" theme="github-light" crossorigin="anonymous" async>
+</script>
+
+            
+        </div>
+
+        <div class="right-content">
+            
+    
+    
+
+        </div>
+        
+    </body>
+
+</html>

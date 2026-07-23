@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} | {{ config.title }}{% endblock %}
+{% block description %}{{ page.description | default(value=page.summary) }}{% endblock %}
+
+{% block content %}
+<article class="blog-post">
+    <header>
+        <h1>{{ page.title }}</h1>
+        <div class="post-meta">
+            <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+            {% if page.extra.reading_time %}
+            <span>• {{ page.reading_time }} min read</span>
+            {% endif %}
+        </div>
+        
+        {% if page.taxonomies.tags %}
+        <div class="tags">
+            {% for tag in page.taxonomies.tags %}
+            <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </header>
+    
+    <div class="post-content">
+        {{ page.content | safe }}
+    </div>
+    
+    {% if page.earlier or page.later %}
+    <nav class="post-navigation">
+        {% if page.earlier %}
+        <a href="{{ page.earlier.permalink }}" class="prev">← {{ page.earlier.title }}</a>
+        {% endif %}
+        {% if page.later %}
+        <a href="{{ page.later.permalink }}" class="next">{{ page.later.title }} →</a>
+        {% endif %}
+    </nav>
+    {% endif %}
+</article>
+{% endblock %}
