@@ -24,7 +24,9 @@ socials = [
   # Configure socials here
 ]
 menu = [
-  # Configure menu bar here
+  { name = "Blog", url = "/blog", weight = 1 },
+  { name = "Blogroll", url = "/blogroll", weight = 2 },
+  { name = "Sobre", url = "/about", weight = 3 },
 ]
 
 author = "Augusto Nunes"

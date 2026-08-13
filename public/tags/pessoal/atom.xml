@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt">
+    <title>Blog do Augusto - pessoal</title>
+    <subtitle>Um blog de divagações, questões e incertezas.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://augnun.github.io/tags/pessoal/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://augnun.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-01-03T15:55:44-03:00</updated>
+    <id>https://augnun.github.io/tags/pessoal/atom.xml</id>
+    <entry xml:lang="pt">
+        <title>Organization vs Procastination</title>
+        <published>2021-01-03T15:55:44-03:00</published>
+        <updated>2021-01-03T15:55:44-03:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://augnun.github.io/blog/organization-vs-procastination/"/>
+        <id>https://augnun.github.io/blog/organization-vs-procastination/</id>
+        
+        <content type="html" xml:base="https://augnun.github.io/blog/organization-vs-procastination/">&lt;p&gt;During undergrad school I leaned heavily on &lt;a href=&quot;https:&#x2F;&#x2F;apps.ankiweb.net&quot;&gt;Anki&lt;&#x2F;a&gt;. It did a really good job on keeping me up with a few hard to grasp concepts and formulas, while &lt;em&gt;muscling up&lt;&#x2F;em&gt; my memory with many banal stuff in a few harder courses. It was fun, easy and readily actionable, you can get instant feedback on how you&#x27;re going.&lt;&#x2F;p&gt;
+&lt;p&gt;Even though I loved it, I haven&#x27;t touched it properly in years. I&#x27;ve tried, but memorizing formulas doesn&#x27;t seem that valuable anymore. I am perfunctorily interesting in learning new languages, and people are really keen on Anki flashcards for this purpose also: they can contain multimedia, formats which differ from the basic front&#x2F;back etc.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m almost a self-taught english speaker, albeit I&#x27;m not that secure with my conversational skills. Maybe I&#x27;ll take a conversation class or make some english speaking friends. I think of myself as possessing a decent fluency in written english, but that&#x27;s just not enough.&lt;&#x2F;p&gt;
+&lt;p&gt;But that&#x27;s not the main point of this: I think Anki is a great tool, but I couldn&#x27;t separate this from being a chore. To be really effective you have to consistently revisit material, make new notes, delete others etc. I think all systems suppose a certain ammount of upkeep, and I&#x27;ve tried many, many learning and organizational methods like GTD, ZTD and, most recently, &lt;a href=&quot;https:&#x2F;&#x2F;zettelkasten.de&quot;&gt;&lt;em&gt;Zettelkasten&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, but none of them ignited the fire, the passion that I had while using Anki in college.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

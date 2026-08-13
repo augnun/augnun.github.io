@@ -10,17 +10,38 @@
         <loc>https://augnun.github.io/blog/</loc>
     </url>
     <url>
+        <loc>https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/</loc>
+        <lastmod>2026-06-02</lastmod>
+    </url>
+    <url>
         <loc>https://augnun.github.io/blog/hello-world/</loc>
         <lastmod>2021-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/blog/organization-vs-procastination/</loc>
+        <lastmod>2021-01-03T15:55:44-03:00</lastmod>
     </url>
     <url>
         <loc>https://augnun.github.io/blog/page/1/</loc>
     </url>
     <url>
+        <loc>https://augnun.github.io/blog/the-problem-with-disqus/</loc>
+        <lastmod>2021-02-07T10:52:58-03:00</lastmod>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/blogroll/</loc>
+    </url>
+    <url>
         <loc>https://augnun.github.io/categories/</loc>
     </url>
     <url>
+        <loc>https://augnun.github.io/categories/blogroll/</loc>
+    </url>
+    <url>
         <loc>https://augnun.github.io/categories/geral/</loc>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/categories/pessoal/</loc>
     </url>
     <url>
         <loc>https://augnun.github.io/posts/</loc>
@@ -58,6 +79,10 @@
         <lastmod>2024-12-26</lastmod>
     </url>
     <url>
+        <loc>https://augnun.github.io/posts/organization-vs-procastination/</loc>
+        <lastmod>2021-01-03T15:55:44-03:00</lastmod>
+    </url>
+    <url>
         <loc>https://augnun.github.io/posts/page/1/</loc>
     </url>
     <url>
@@ -66,6 +91,22 @@
     <url>
         <loc>https://augnun.github.io/posts/shortcode/</loc>
         <lastmod>2024-06-14</lastmod>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/posts/the-problem-with-disqus/</loc>
+        <lastmod>2021-02-07T10:52:58-03:00</lastmod>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/posts/we-lost-leopoldo/</loc>
+        <lastmod>2021-02-15T22:08:43-03:00</lastmod>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/posts/why-i-moved-to-hugo/</loc>
+        <lastmod>2021-01-13T11:13:17-03:00</lastmod>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/posts/zizek-vs-self/</loc>
+        <lastmod>2021-01-03T11:55:30-03:00</lastmod>
     </url>
     <url>
         <loc>https://augnun.github.io/projects/</loc>
@@ -108,10 +149,28 @@
         <loc>https://augnun.github.io/tags/documentation/</loc>
     </url>
     <url>
+        <loc>https://augnun.github.io/tags/en/</loc>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/tags/english/</loc>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/tags/estatistica/</loc>
+    </url>
+    <url>
         <loc>https://augnun.github.io/tags/example/</loc>
     </url>
     <url>
         <loc>https://augnun.github.io/tags/meta/</loc>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/tags/pessoal/</loc>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/tags/privacidade/</loc>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/tags/referencia/</loc>
     </url>
     <url>
         <loc>https://augnun.github.io/tags/test/</loc>
