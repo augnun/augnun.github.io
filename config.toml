@@ -26,7 +26,10 @@ socials = [
 menu = [
   { name = "Blog", url = "/blog", weight = 1 },
   { name = "Blogroll", url = "/blogroll", weight = 2 },
-  { name = "Sobre", url = "/about", weight = 3 },
+  { name = "Posts", url = "/posts", weight = 3 },
+  { name = "Projects", url = "/projects", weight = 4 },
+  { name = "Talks", url = "/talks", weight = 5 },
+  { name = "Sobre", url = "/about", weight = 6 },
 ]
 
 author = "Augusto Nunes"
