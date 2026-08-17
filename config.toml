@@ -28,8 +28,7 @@ menu = [
   { name = "Blogroll", url = "/blogroll", weight = 2 },
   { name = "Posts", url = "/posts", weight = 3 },
   { name = "Projects", url = "/projects", weight = 4 },
-  { name = "Talks", url = "/talks", weight = 5 },
-  { name = "Sobre", url = "/about", weight = 6 },
+  { name = "Sobre", url = "/about", weight = 5 },
 ]
 
 author = "Augusto Nunes"
