@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Blog do Augusto - en</title>
+      <link>https://augnun.github.io</link>
+      <description>Um blog de divagações, questões e incertezas.</description>
+      <generator>Zola</generator>
+      <language>pt</language>
+      <atom:link href="https://augnun.github.io/tags/en/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 07 Feb 2021 10:52:58 -0300</lastBuildDate>
+      <item>
+          <title>The Problem With Disqus</title>
+          <pubDate>Sun, 07 Feb 2021 10:52:58 -0300</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/blog/the-problem-with-disqus/</link>
+          <guid>https://augnun.github.io/blog/the-problem-with-disqus/</guid>
+          <description xml:base="https://augnun.github.io/blog/the-problem-with-disqus/">&lt;p&gt;Recently I saw on &lt;a href=&quot;https:&#x2F;&#x2F;news.ycombinator.com&quot;&gt;Hacker News&lt;&#x2F;a&gt; a very nice blog post about disqus: it always seemed to me like a shady tool, ubiquitous but at the same time leading to some potential privacy risks.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;supunkavinda.blog&#x2F;disqus&quot;&gt;Supun Kavinda&#x27;s very nice explanation&lt;&#x2F;a&gt; puts a light to this pro&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

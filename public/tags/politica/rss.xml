@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt">
-    <title>Blog do Augusto - sociedade</title>
-    <subtitle>Um blog de divagações, questões e incertezas.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://augnun.github.io/tags/sociedade/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://augnun.github.io"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-08-15T00:00:00+00:00</updated>
-    <id>https://augnun.github.io/tags/sociedade/atom.xml</id>
-    <entry xml:lang="pt">
-        <title>Ascenção e Queda da Palantir</title>
-        <published>2026-08-15T00:00:00+00:00</published>
-        <updated>2026-08-15T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/"/>
-        <id>https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/</id>
-        
-        <content type="html" xml:base="https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/">&lt;h1 id=&quot;a-ascensao-e-possivel-queda-da-palantir-tecnologia-guerra-e-ideologia&quot;&gt;A Ascensão (e Possível Queda) da Palantir: Tecnologia, Guerra e Ideologia&lt;&#x2F;h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Blog do Augusto - política</title>
+      <link>https://augnun.github.io</link>
+      <description>Um blog de divagações, questões e incertezas.</description>
+      <generator>Zola</generator>
+      <language>pt</language>
+      <atom:link href="https://augnun.github.io/tags/politica/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 15 Aug 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Ascenção e Queda da Palantir</title>
+          <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/</link>
+          <guid>https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/</guid>
+          <description xml:base="https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/">&lt;h1 id=&quot;a-ascensao-e-possivel-queda-da-palantir-tecnologia-guerra-e-ideologia&quot;&gt;A Ascensão (e Possível Queda) da Palantir: Tecnologia, Guerra e Ideologia&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;em&gt;Baseado no excelente ensaio do canal Tom Nicholas no YouTube.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Se você acompanha as notícias sobre tecnologia militar, espionagem, e contratos governamentais bilionários, provavelmente já esbarrou no nome &lt;strong&gt;Palantir&lt;&#x2F;strong&gt;. Batizada em homenagem às pedras videntes da obra de J.R.R. Tolkien (&lt;em&gt;O Senhor dos Anéis&lt;&#x2F;em&gt;), a empresa cultiva uma imagem um tanto mística, adotando jargões nerds enquanto atua diretamente no centro de operações militares e estatais, desde o Oriente Médio até a infraestrutura pública na Europa.&lt;&#x2F;p&gt;
 &lt;p&gt;Em seu minucioso ensaio em vídeo intitulado &lt;em&gt;&quot;The Rise (and Fall?) of Palantir&quot;&lt;&#x2F;em&gt;, o criador &lt;strong&gt;Tom Nicholas&lt;&#x2F;strong&gt; investiga as raízes dessa corporação, as figuras inusitadas por trás dela e os problemas éticos de ter uma empresa tão controversa no coração do estado moderno.&lt;&#x2F;p&gt;
@@ -58,7 +49,7 @@
 &lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;em&gt;Assista ao excelente vídeo original para todos os detalhes e fontes:&lt;&#x2F;em&gt;
 &lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=SfGUzSYEqY0&quot;&gt;The Rise (and Fall?) of Palantir - Tom Nicholas (YouTube)&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-</feed>
+</description>
+      </item>
+    </channel>
+</rss>

@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt">
-    <title>Blog do Augusto - example</title>
-    <subtitle>Um blog de divagações, questões e incertezas.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://augnun.github.io/tags/example/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://augnun.github.io"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-12-26T00:00:00+00:00</updated>
-    <id>https://augnun.github.io/tags/example/atom.xml</id>
-    <entry xml:lang="pt">
-        <title>Mermaid Example</title>
-        <published>2024-12-26T00:00:00+00:00</published>
-        <updated>2024-12-26T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://augnun.github.io/posts/mermaid/"/>
-        <id>https://augnun.github.io/posts/mermaid/</id>
-        
-        <content type="html" xml:base="https://augnun.github.io/posts/mermaid/">&lt;p&gt;This Theme supports &lt;a href=&quot;https:&#x2F;&#x2F;mermaid.js.org&#x2F;&quot;&gt;mermaid&lt;&#x2F;a&gt; markdown diagram rendering.&lt;&#x2F;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Blog do Augusto - example</title>
+      <link>https://augnun.github.io</link>
+      <description>Um blog de divagações, questões e incertezas.</description>
+      <generator>Zola</generator>
+      <language>pt</language>
+      <atom:link href="https://augnun.github.io/tags/example/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Mermaid Example</title>
+          <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/posts/mermaid/</link>
+          <guid>https://augnun.github.io/posts/mermaid/</guid>
+          <description xml:base="https://augnun.github.io/posts/mermaid/">&lt;p&gt;This Theme supports &lt;a href=&quot;https:&#x2F;&#x2F;mermaid.js.org&#x2F;&quot;&gt;mermaid&lt;&#x2F;a&gt; markdown diagram rendering.&lt;&#x2F;p&gt;
 &lt;p&gt;To use mermaid diagrams in your posts, see the example in the raw markdown code.
 https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;not-matthias&#x2F;apollo&#x2F;refs&#x2F;heads&#x2F;main&#x2F;content&#x2F;posts&#x2F;mermaid.md&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;rendered-example&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#rendered-example&quot; aria-label=&quot;Anchor link for: rendered-example&quot;&gt;Rendered Example&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -39,26 +30,15 @@ https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;not-matthias&#x2F;apollo&#x2F;r
     style A fill:#f9f,stroke:#333
     style E fill:#9f9,stroke:#333
 &lt;&#x2F;pre&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="pt">
-        <title>Shortcode Example</title>
-        <published>2024-06-14T00:00:00+00:00</published>
-        <updated>2024-06-14T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://augnun.github.io/posts/shortcode/"/>
-        <id>https://augnun.github.io/posts/shortcode/</id>
-        
-        <content type="html" xml:base="https://augnun.github.io/posts/shortcode/">&lt;h2 id=&quot;note&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#note&quot; aria-label=&quot;Anchor link for: note&quot;&gt;Note&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+</description>
+      </item>
+      <item>
+          <title>Shortcode Example</title>
+          <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/posts/shortcode/</link>
+          <guid>https://augnun.github.io/posts/shortcode/</guid>
+          <description xml:base="https://augnun.github.io/posts/shortcode/">&lt;h2 id=&quot;note&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#note&quot; aria-label=&quot;Anchor link for: note&quot;&gt;Note&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Here is an example of the &lt;code&gt;note&lt;&#x2F;code&gt; shortcode:&lt;&#x2F;p&gt;
 &lt;p&gt;This one is static!
 &lt;div class=&quot;note-container&quot;&gt;
@@ -185,26 +165,15 @@ We can&amp;#x27;t call another shortcode inside a shortcode, but this is good en
 &lt;pre data-lang=&quot;markdown&quot; class=&quot;language-markdown &quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;{{ note(center=true, header=&amp;quot;Centered Text&amp;quot;, body=&amp;quot;This is centered text&amp;quot;) }}
 &lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;It works good enough for me!&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="pt">
-        <title>Math Symbol Example</title>
-        <published>2023-01-06T00:00:00+00:00</published>
-        <updated>2023-01-06T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://augnun.github.io/posts/math-symbol/"/>
-        <id>https://augnun.github.io/posts/math-symbol/</id>
-        
-        <content type="html" xml:base="https://augnun.github.io/posts/math-symbol/">&lt;p&gt;Note: This requires &lt;code&gt;mathjax = true&lt;&#x2F;code&gt; in the page&#x27;s &lt;code&gt;[extra]&lt;&#x2F;code&gt; section (per-page) or in the site&#x27;s &lt;code&gt;config.toml&lt;&#x2F;code&gt; &lt;code&gt;[extra]&lt;&#x2F;code&gt; section (global).&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Math Symbol Example</title>
+          <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/posts/math-symbol/</link>
+          <guid>https://augnun.github.io/posts/math-symbol/</guid>
+          <description xml:base="https://augnun.github.io/posts/math-symbol/">&lt;p&gt;Note: This requires &lt;code&gt;mathjax = true&lt;&#x2F;code&gt; in the page&#x27;s &lt;code&gt;[extra]&lt;&#x2F;code&gt; section (per-page) or in the site&#x27;s &lt;code&gt;config.toml&lt;&#x2F;code&gt; &lt;code&gt;[extra]&lt;&#x2F;code&gt; section (global).&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;inline-math&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#inline-math&quot; aria-label=&quot;Anchor link for: inline-math&quot;&gt;Inline Math&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;$(a+b)^2$ = $a^2 + 2ab + b^2$&lt;&#x2F;li&gt;
@@ -216,26 +185,15 @@ $a_0,..,a_d \in \mathbb{F}_p$&lt;&#x2F;li&gt;
 &lt;p&gt;$$
 p := (\sum_{k∈I}{c_k.v_k} + \delta_v.t(x))·(\sum_{k∈I}{c_k.w_k} + \delta_w.t(x)) − (\sum_{k∈I}{c_k.y_k} + \delta_y.t(x))
 $$&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="pt">
-        <title>Markdown Test</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-05-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://augnun.github.io/posts/markdown/"/>
-        <id>https://augnun.github.io/posts/markdown/</id>
-        
-        <content type="html" xml:base="https://augnun.github.io/posts/markdown/">&lt;h1 id=&quot;h1&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#h1&quot; aria-label=&quot;Anchor link for: h1&quot;&gt;H1&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+</description>
+      </item>
+      <item>
+          <title>Markdown Test</title>
+          <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/posts/markdown/</link>
+          <guid>https://augnun.github.io/posts/markdown/</guid>
+          <description xml:base="https://augnun.github.io/posts/markdown/">&lt;h1 id=&quot;h1&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#h1&quot; aria-label=&quot;Anchor link for: h1&quot;&gt;H1&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;h2&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#h2&quot; aria-label=&quot;Anchor link for: h2&quot;&gt;H2&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;h3&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#h3&quot; aria-label=&quot;Anchor link for: h3&quot;&gt;H3&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet sagittis id consectetur purus ut. In pellentesque massa placerat duis ultricies. Neque laoreet suspendisse interdum consectetur libero id. Justo nec ultrices dui sapien eget mi proin. Nunc consequat interdum varius sit amet mattis vulputate. Sollicitudin tempor id eu nisl nunc mi ipsum. Non odio euismod lacinia at quis. Sit amet nisl suscipit adipiscing. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Sit amet consectetur adipiscing elit pellentesque habitant. Ac placerat vestibulum lectus mauris. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. &lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&quot;&gt;Google&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -299,7 +257,7 @@ universe.&lt;br&gt;
 &lt;h2 id=&quot;code-tags&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#code-tags&quot; aria-label=&quot;Anchor link for: code-tags&quot;&gt;Code tags&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Lorem ipsum &lt;code&gt;dolor&lt;&#x2F;code&gt; sit amet, &lt;code&gt;consectetur adipiscing&lt;&#x2F;code&gt; elit.
 &lt;code&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-</feed>
+</description>
+      </item>
+    </channel>
+</rss>

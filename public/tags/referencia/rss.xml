@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt">
-    <title>Blog do Augusto - estatística</title>
-    <subtitle>Um blog de divagações, questões e incertezas.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://augnun.github.io/tags/estatistica/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://augnun.github.io"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-06-02T00:00:00+00:00</updated>
-    <id>https://augnun.github.io/tags/estatistica/atom.xml</id>
-    <entry xml:lang="pt">
-        <title>Uma lista de recursos de estatística</title>
-        <published>2026-06-02T00:00:00+00:00</published>
-        <updated>2026-06-02T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/"/>
-        <id>https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/</id>
-        
-        <content type="html" xml:base="https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/">&lt;p&gt;Essa é uma lista traduzida do &lt;a href=&quot;https:&#x2F;&#x2F;statmodeling.stat.columbia.edu&#x2F;2009&#x2F;05&#x2F;24&#x2F;handy_statistic&#x2F;&quot;&gt;post original&lt;&#x2F;a&gt; do excelente blog do Andrew Gelman.&lt;&#x2F;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Blog do Augusto - referência</title>
+      <link>https://augnun.github.io</link>
+      <description>Um blog de divagações, questões e incertezas.</description>
+      <generator>Zola</generator>
+      <language>pt</language>
+      <atom:link href="https://augnun.github.io/tags/referencia/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 02 Jun 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Uma lista de recursos de estatística</title>
+          <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/</link>
+          <guid>https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/</guid>
+          <description xml:base="https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/">&lt;p&gt;Essa é uma lista traduzida do &lt;a href=&quot;https:&#x2F;&#x2F;statmodeling.stat.columbia.edu&#x2F;2009&#x2F;05&#x2F;24&#x2F;handy_statistic&#x2F;&quot;&gt;post original&lt;&#x2F;a&gt; do excelente blog do Andrew Gelman.&lt;&#x2F;p&gt;
 &lt;p&gt;Estes são todos métodos e conceitos importantes relacionados à estatística que não são tão conhecidos quanto deveriam. Espero que, ao dar nomes a eles, tornemos as ideias mais acessíveis às pessoas. (A data acima é de quando a primeira versão desta lista foi publicada; eu continuo a atualizá-la regularmente.)&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;statmodeling.stat.columbia.edu&#x2F;2009&#x2F;05&#x2F;the_next_suprem&#x2F;&quot;&gt;Senhor P (Mister P)&lt;&#x2F;a&gt;: Regressão multinível e pós-estratificação.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;statmodeling.stat.columbia.edu&#x2F;2005&#x2F;03&#x2F;the_secret_weap&#x2F;&quot;&gt;A Arma Secreta (The Secret Weapon)&lt;&#x2F;a&gt;: Ajustar um modelo estatístico repetidamente em vários conjuntos de dados diferentes e depois exibir todas essas estimativas juntas.&lt;&#x2F;p&gt;
@@ -181,7 +172,7 @@
 &lt;p&gt;Eu sei que há vários outros que estou esquecendo; vocês poderiam refrescar a minha memória, por favor? Obrigado.&lt;&#x2F;p&gt;
 &lt;p&gt;Além disso, há &lt;a href=&quot;https:&#x2F;&#x2F;www.stat.columbia.edu&#x2F;~gelman&#x2F;book&#x2F;gelman_quotes.pdf&quot;&gt;esta lista&lt;&#x2F;a&gt; com as 77 melhores falas do meu curso de estatística Bayesiana.&lt;&#x2F;p&gt;
 &lt;p&gt;P.S. Não, eu não acho que jamais consiga igualar &lt;a href=&quot;https:&#x2F;&#x2F;www.senns.demon.co.uk&#x2F;wdict.html&quot;&gt;Stephen Senn&lt;&#x2F;a&gt; no jogo de definições.&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-</feed>
+</description>
+      </item>
+    </channel>
+</rss>

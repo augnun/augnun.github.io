@@ -10,6 +10,10 @@
         <loc>https://augnun.github.io/blog/</loc>
     </url>
     <url>
+        <loc>https://augnun.github.io/blog/2026-04-01-carros-sao-ruins/</loc>
+        <lastmod>2026-04-01</lastmod>
+    </url>
+    <url>
         <loc>https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/</loc>
         <lastmod>2026-06-02</lastmod>
     </url>
@@ -168,6 +172,9 @@
         <loc>https://augnun.github.io/tags/meta/</loc>
     </url>
     <url>
+        <loc>https://augnun.github.io/tags/mobilidade/</loc>
+    </url>
+    <url>
         <loc>https://augnun.github.io/tags/pessoal/</loc>
     </url>
     <url>
@@ -184,5 +191,8 @@
     </url>
     <url>
         <loc>https://augnun.github.io/tags/test/</loc>
+    </url>
+    <url>
+        <loc>https://augnun.github.io/tags/urbanismo/</loc>
     </url>
 </urlset>

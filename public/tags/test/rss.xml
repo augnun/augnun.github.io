@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt">
-    <title>Blog do Augusto - test</title>
-    <subtitle>Um blog de divagações, questões e incertezas.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://augnun.github.io/tags/test/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://augnun.github.io"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-04-04T00:00:00+00:00</updated>
-    <id>https://augnun.github.io/tags/test/atom.xml</id>
-    <entry xml:lang="pt">
-        <title>Line Highlighting Example</title>
-        <published>2026-04-04T00:00:00+00:00</published>
-        <updated>2026-04-04T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://augnun.github.io/posts/linenos-test/"/>
-        <id>https://augnun.github.io/posts/linenos-test/</id>
-        
-        <content type="html" xml:base="https://augnun.github.io/posts/linenos-test/">&lt;p&gt;This page demonstrates Zola&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;syntax-highlighting&#x2F;&quot;&gt;code block annotations&lt;&#x2F;a&gt; supported by the Apollo theme.&lt;&#x2F;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Blog do Augusto - test</title>
+      <link>https://augnun.github.io</link>
+      <description>Um blog de divagações, questões e incertezas.</description>
+      <generator>Zola</generator>
+      <language>pt</language>
+      <atom:link href="https://augnun.github.io/tags/test/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Line Highlighting Example</title>
+          <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/posts/linenos-test/</link>
+          <guid>https://augnun.github.io/posts/linenos-test/</guid>
+          <description xml:base="https://augnun.github.io/posts/linenos-test/">&lt;p&gt;This page demonstrates Zola&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;syntax-highlighting&#x2F;&quot;&gt;code block annotations&lt;&#x2F;a&gt; supported by the Apollo theme.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;line-numbers&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#line-numbers&quot; aria-label=&quot;Anchor link for: line-numbers&quot;&gt;Line Numbers&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Use &lt;code&gt;linenos&lt;&#x2F;code&gt; to enable line numbering.&lt;&#x2F;p&gt;
 &lt;pre&gt;&lt;code&gt;```rust,linenos
@@ -107,7 +98,7 @@ fn main() {
 &lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;    let x = 42;
 &lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;}
 &lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-</content>
-        
-    </entry>
-</feed>
+</description>
+      </item>
+    </channel>
+</rss>

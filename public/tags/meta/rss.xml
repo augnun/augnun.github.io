@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Blog do Augusto - meta</title>
+      <link>https://augnun.github.io</link>
+      <description>Um blog de divagações, questões e incertezas.</description>
+      <generator>Zola</generator>
+      <language>pt</language>
+      <atom:link href="https://augnun.github.io/tags/meta/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Hello world! Começando um novo _blog_</title>
+          <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/blog/hello-world/</link>
+          <guid>https://augnun.github.io/blog/hello-world/</guid>
+          <description xml:base="https://augnun.github.io/blog/hello-world/">&lt;p&gt;Essa é mais uma tentativa de começar um &lt;em&gt;blog&lt;&#x2F;em&gt;! Na direção de lutar contra a merdificação da internet&lt;&#x2F;p&gt;
+&lt;!--- more ---&gt;</description>
+      </item>
+    </channel>
+</rss>

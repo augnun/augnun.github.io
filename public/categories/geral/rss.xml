@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt">
-    <title>Blog do Augusto - Geral</title>
-    <subtitle>Um blog de divagações, questões e incertezas.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://augnun.github.io/categories/geral/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://augnun.github.io"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-08-15T00:00:00+00:00</updated>
-    <id>https://augnun.github.io/categories/geral/atom.xml</id>
-    <entry xml:lang="pt">
-        <title>Ascenção e Queda da Palantir</title>
-        <published>2026-08-15T00:00:00+00:00</published>
-        <updated>2026-08-15T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/"/>
-        <id>https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/</id>
-        
-        <content type="html" xml:base="https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/">&lt;h1 id=&quot;a-ascensao-e-possivel-queda-da-palantir-tecnologia-guerra-e-ideologia&quot;&gt;A Ascensão (e Possível Queda) da Palantir: Tecnologia, Guerra e Ideologia&lt;&#x2F;h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Blog do Augusto - Geral</title>
+      <link>https://augnun.github.io</link>
+      <description>Um blog de divagações, questões e incertezas.</description>
+      <generator>Zola</generator>
+      <language>pt</language>
+      <atom:link href="https://augnun.github.io/categories/geral/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 15 Aug 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Ascenção e Queda da Palantir</title>
+          <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/</link>
+          <guid>https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/</guid>
+          <description xml:base="https://augnun.github.io/blog/2026-08-15-ascencao-e-queda-da-palantir/">&lt;h1 id=&quot;a-ascensao-e-possivel-queda-da-palantir-tecnologia-guerra-e-ideologia&quot;&gt;A Ascensão (e Possível Queda) da Palantir: Tecnologia, Guerra e Ideologia&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;em&gt;Baseado no excelente ensaio do canal Tom Nicholas no YouTube.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Se você acompanha as notícias sobre tecnologia militar, espionagem, e contratos governamentais bilionários, provavelmente já esbarrou no nome &lt;strong&gt;Palantir&lt;&#x2F;strong&gt;. Batizada em homenagem às pedras videntes da obra de J.R.R. Tolkien (&lt;em&gt;O Senhor dos Anéis&lt;&#x2F;em&gt;), a empresa cultiva uma imagem um tanto mística, adotando jargões nerds enquanto atua diretamente no centro de operações militares e estatais, desde o Oriente Médio até a infraestrutura pública na Europa.&lt;&#x2F;p&gt;
 &lt;p&gt;Em seu minucioso ensaio em vídeo intitulado &lt;em&gt;&quot;The Rise (and Fall?) of Palantir&quot;&lt;&#x2F;em&gt;, o criador &lt;strong&gt;Tom Nicholas&lt;&#x2F;strong&gt; investiga as raízes dessa corporação, as figuras inusitadas por trás dela e os problemas éticos de ter uma empresa tão controversa no coração do estado moderno.&lt;&#x2F;p&gt;
@@ -58,26 +49,15 @@
 &lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;em&gt;Assista ao excelente vídeo original para todos os detalhes e fontes:&lt;&#x2F;em&gt;
 &lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=SfGUzSYEqY0&quot;&gt;The Rise (and Fall?) of Palantir - Tom Nicholas (YouTube)&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="pt">
-        <title>Uma lista de recursos de estatística</title>
-        <published>2026-06-02T00:00:00+00:00</published>
-        <updated>2026-06-02T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/"/>
-        <id>https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/</id>
-        
-        <content type="html" xml:base="https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/">&lt;p&gt;Essa é uma lista traduzida do &lt;a href=&quot;https:&#x2F;&#x2F;statmodeling.stat.columbia.edu&#x2F;2009&#x2F;05&#x2F;24&#x2F;handy_statistic&#x2F;&quot;&gt;post original&lt;&#x2F;a&gt; do excelente blog do Andrew Gelman.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Uma lista de recursos de estatística</title>
+          <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/</link>
+          <guid>https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/</guid>
+          <description xml:base="https://augnun.github.io/blog/2026-08-14-recursos-de-estatistica/">&lt;p&gt;Essa é uma lista traduzida do &lt;a href=&quot;https:&#x2F;&#x2F;statmodeling.stat.columbia.edu&#x2F;2009&#x2F;05&#x2F;24&#x2F;handy_statistic&#x2F;&quot;&gt;post original&lt;&#x2F;a&gt; do excelente blog do Andrew Gelman.&lt;&#x2F;p&gt;
 &lt;p&gt;Estes são todos métodos e conceitos importantes relacionados à estatística que não são tão conhecidos quanto deveriam. Espero que, ao dar nomes a eles, tornemos as ideias mais acessíveis às pessoas. (A data acima é de quando a primeira versão desta lista foi publicada; eu continuo a atualizá-la regularmente.)&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;statmodeling.stat.columbia.edu&#x2F;2009&#x2F;05&#x2F;the_next_suprem&#x2F;&quot;&gt;Senhor P (Mister P)&lt;&#x2F;a&gt;: Regressão multinível e pós-estratificação.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;statmodeling.stat.columbia.edu&#x2F;2005&#x2F;03&#x2F;the_secret_weap&#x2F;&quot;&gt;A Arma Secreta (The Secret Weapon)&lt;&#x2F;a&gt;: Ajustar um modelo estatístico repetidamente em vários conjuntos de dados diferentes e depois exibir todas essas estimativas juntas.&lt;&#x2F;p&gt;
@@ -235,27 +215,59 @@
 &lt;p&gt;Eu sei que há vários outros que estou esquecendo; vocês poderiam refrescar a minha memória, por favor? Obrigado.&lt;&#x2F;p&gt;
 &lt;p&gt;Além disso, há &lt;a href=&quot;https:&#x2F;&#x2F;www.stat.columbia.edu&#x2F;~gelman&#x2F;book&#x2F;gelman_quotes.pdf&quot;&gt;esta lista&lt;&#x2F;a&gt; com as 77 melhores falas do meu curso de estatística Bayesiana.&lt;&#x2F;p&gt;
 &lt;p&gt;P.S. Não, eu não acho que jamais consiga igualar &lt;a href=&quot;https:&#x2F;&#x2F;www.senns.demon.co.uk&#x2F;wdict.html&quot;&gt;Stephen Senn&lt;&#x2F;a&gt; no jogo de definições.&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="pt">
-        <title>Hello world! Começando um novo _blog_</title>
-        <published>2021-01-10T00:00:00+00:00</published>
-        <updated>2021-01-10T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://augnun.github.io/blog/hello-world/"/>
-        <id>https://augnun.github.io/blog/hello-world/</id>
-        
-        <content type="html" xml:base="https://augnun.github.io/blog/hello-world/">&lt;p&gt;Essa é mais uma tentativa de começar um &lt;em&gt;blog&lt;&#x2F;em&gt;! Na direção de lutar contra a merdificação da internet&lt;&#x2F;p&gt;
-&lt;!--- more ---&gt;</content>
-        
-    </entry>
-</feed>
+</description>
+      </item>
+      <item>
+          <title>Todas as Razões Para Odiar Carros</title>
+          <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/blog/2026-04-01-carros-sao-ruins/</link>
+          <guid>https://augnun.github.io/blog/2026-04-01-carros-sao-ruins/</guid>
+          <description xml:base="https://augnun.github.io/blog/2026-04-01-carros-sao-ruins/">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;todas-as-razoes-para-odiar-carros-e-por-que-precisamos-salvar-nossas-cidades&quot;&gt;Todas as Razões Para Odiar Carros (E Por Que Precisamos Salvar Nossas Cidades)&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;em&gt;Um mergulho no fascinante vídeo do canal &#x27;Not Just Bikes&#x27; que desconstrói a nossa dependência automotiva e mostra como repensar o nosso espaço urbano.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Se você já passou raiva preso no trânsito, sentiu medo ao tentar atravessar uma avenida ou simplesmente se incomodou com o barulho constante da sua cidade, o vídeo recente do canal &lt;em&gt;Not Just Bikes&lt;&#x2F;em&gt;, intitulado &quot;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=umgi-CbaSRU&quot;&gt;Every Reason to Hate Cars&lt;&#x2F;a&gt;&quot;, foi feito para você.&lt;&#x2F;p&gt;
+&lt;p&gt;Apesar do título provocativo, o criador deixa um ponto claro logo de início: o objetivo não é banir os carros da face da Terra, mas sim &lt;strong&gt;resgatar as nossas cidades&lt;&#x2F;strong&gt;. Afinal, carros são invenções revolucionárias e ferramentas úteis, mas o excesso deles e o planejamento urbano focado exclusivamente no automóvel trazem consequências devastadoras para a saúde, para o bolso e para a sociedade.&lt;&#x2F;p&gt;
+&lt;p&gt;Abaixo, resumimos os pontos mais impactantes levantados no vídeo que vão fazer você olhar para o trânsito da sua cidade de uma forma completamente diferente.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;1-carros-matam-e-machucam-muito&quot;&gt;1. Carros Matam e Machucam (Muito)&lt;&#x2F;h2&gt;
+&lt;p&gt;Tratamos as mortes no trânsito como &quot;acidentes&quot;, mas na maioria das vezes, elas são falhas de design evitáveis. Todos os anos, os carros tiram a vida de &lt;strong&gt;1,3 milhão de pessoas&lt;&#x2F;strong&gt; no mundo, sendo a principal causa de morte para a faixa etária de 4 a 30 anos.&lt;&#x2F;p&gt;
+&lt;p&gt;Pior ainda: com a popularização de SUVs gigantes e picapes pesadas (especialmente nos Estados Unidos), o número de mortes de pedestres disparou. Esses veículos mais altos têm enormes pontos cegos e causam muito mais danos quando atingem o corpo humano em comparação a um carro de passeio comum.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;2-a-poluicao-que-voce-nao-ve-mas-respira&quot;&gt;2. A Poluição Que Você Não Vê (Mas Respira)&lt;&#x2F;h2&gt;
+&lt;p&gt;Sabemos que os escapamentos poluem o ar com dióxido de nitrogênio e outros gases tóxicos. Mas o vídeo traz um dado alarmante sobre algo que quase ninguém comenta: &lt;strong&gt;os pneus&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;O desgaste constante da borracha contra o asfalto gera poeira tóxica, tornando os pneus uma das maiores fontes de &lt;em&gt;microplásticos e nanoplásticos&lt;&#x2F;em&gt; nos nossos rios, oceanos e até no ar que respiramos. Além disso, compostos químicos usados nos pneus (como o 6PPD) são altamente tóxicos para a vida selvagem. E vale lembrar: carros elétricos não resolvem isso; por serem mais pesados por causa das baterias, eles desgastam os pneus e o asfalto ainda mais rápido.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;3-o-mito-de-que-cidades-sao-barulhentas&quot;&gt;3. O Mito de que &quot;Cidades São Barulhentas&quot;&lt;&#x2F;h2&gt;
+&lt;p&gt;Cidades não são barulhentas; &lt;strong&gt;os carros são barulhentos&lt;&#x2F;strong&gt;. Acima de 30 km&#x2F;h, o maior ruído emitido por um carro não vem do motor, mas do atrito do pneu com o asfalto (o chamado ruído de rolagem). Junte a isso as sirenes, alarmes e motores acelerando. O estresse diário causado por essa poluição sonora está diretamente ligado a problemas de saúde como hipertensão, ansiedade e distúrbios do sono.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;4-o-custo-oculto-toda-a-sociedade-subsidia-os-motoristas&quot;&gt;4. O Custo Oculto: Toda a Sociedade Subsidia os Motoristas&lt;&#x2F;h2&gt;
+&lt;p&gt;Muitos motoristas reclamam dos altos impostos, mas a verdade é que &lt;strong&gt;a sociedade inteira subsidia o uso do carro&lt;&#x2F;strong&gt;. A infraestrutura rodoviária (ruas, pontes, semáforos, asfalto) é absurdamente cara de construir e manter.&lt;&#x2F;p&gt;
+&lt;p&gt;Um dos piores exemplos é o &lt;strong&gt;estacionamento gratuito&lt;&#x2F;strong&gt; e as leis de &quot;vagas mínimas&quot; para novos edifícios. O custo da terra e da construção desses estacionamentos é repassado para o valor final dos imóveis e das mercadorias. Ou seja: mesmo quem vai ao supermercado a pé, de bicicleta ou de ônibus está pagando mais caro no feijão para subsidiar o estacionamento de quem foi de carro.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;5-a-sindrome-do-pai-motorista-e-a-desigualdade&quot;&gt;5. A Síndrome do &quot;Pai Motorista&quot; e a Desigualdade&lt;&#x2F;h2&gt;
+&lt;p&gt;O subúrbio focado no carro destrói a independência infantil. Crianças que moram em bairros onde não é seguro caminhar ou pedalar são totalmente dependentes de um adulto para levá-las a qualquer lugar. Isso reduz drasticamente a atividade física na infância e limita o convívio social.&lt;&#x2F;p&gt;
+&lt;p&gt;Além disso, calçadas ruins, ruas largas e falta de acessibilidade tornam as cidades hostis para idosos e pessoas com deficiência. Populações de baixa renda também sofrem desproporcionalmente, já que são forçadas a arcar com os altos custos de comprar e manter um veículo apenas para conseguir chegar ao trabalho.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;6-a-motonormatividade&quot;&gt;6. A &quot;Motonormatividade&quot;&lt;&#x2F;h2&gt;
+&lt;p&gt;O vídeo apresenta o conceito de &lt;em&gt;motonormatividade&lt;&#x2F;em&gt; — o viés psicológico que nos faz aceitar os perigos dos carros como se fossem naturais. O estudo citado é simples: se alguém começasse a soltar fumaça tóxica no seu rosto no meio da rua (como fumaça de cigarro), você e a sociedade achariam inaceitável. Mas quando essa mesma fumaça sai de um escapamento e invade o ar do bairro, achamos &quot;normal&quot; porque aceitamos o carro como um &quot;mal inevitável&quot;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;entao-qual-e-a-solucao&quot;&gt;Então, qual é a solução?&lt;&#x2F;h2&gt;
+&lt;p&gt;A solução não é proibir todos os carros do mundo, mas sim devolver a &lt;strong&gt;liberdade de escolha&lt;&#x2F;strong&gt; às pessoas.&lt;&#x2F;p&gt;
+&lt;p&gt;Precisamos:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Construir bairros densos e caminháveis;&lt;&#x2F;li&gt;
+&lt;li&gt;Investir pesadamente em transporte público de qualidade;&lt;&#x2F;li&gt;
+&lt;li&gt;Criar infraestrutura segura para bicicletas e micromobilidade;&lt;&#x2F;li&gt;
+&lt;li&gt;Reduzir limites de velocidade em áreas urbanas (idealmente para 30 km&#x2F;h);&lt;&#x2F;li&gt;
+&lt;li&gt;Acabar com as exigências de estacionamento mínimo.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;O melhor lugar do mundo não é aquele onde todo mundo tem um carro, mas aquele onde &lt;strong&gt;as pessoas não precisam de um carro para viverem felizes&lt;&#x2F;strong&gt;. O carro deve ser tratado apenas como uma ferramenta pontual, não como a única maneira de existir no espaço público.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Gostou da reflexão?&lt;&#x2F;strong&gt; Não deixe de conferir o vídeo completo (em inglês) no canal &lt;em&gt;Not Just Bikes&lt;&#x2F;em&gt; para se aprofundar no assunto e ver todas as referências científicas detalhadas na descrição: &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=umgi-CbaSRU&quot;&gt;Assista ao vídeo aqui&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Hello world! Começando um novo _blog_</title>
+          <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/blog/hello-world/</link>
+          <guid>https://augnun.github.io/blog/hello-world/</guid>
+          <description xml:base="https://augnun.github.io/blog/hello-world/">&lt;p&gt;Essa é mais uma tentativa de começar um &lt;em&gt;blog&lt;&#x2F;em&gt;! Na direção de lutar contra a merdificação da internet&lt;&#x2F;p&gt;
+&lt;!--- more ---&gt;</description>
+      </item>
+    </channel>
+</rss>

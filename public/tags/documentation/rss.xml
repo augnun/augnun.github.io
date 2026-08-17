@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt">
-    <title>Blog do Augusto - documentation</title>
-    <subtitle>Um blog de divagações, questões e incertezas.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://augnun.github.io/tags/documentation/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://augnun.github.io"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-07-09T00:00:00+00:00</updated>
-    <id>https://augnun.github.io/tags/documentation/atom.xml</id>
-    <entry xml:lang="pt">
-        <title>Configuring Apollo</title>
-        <published>2024-07-09T00:00:00+00:00</published>
-        <updated>2024-07-09T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://augnun.github.io/posts/configuration/"/>
-        <id>https://augnun.github.io/posts/configuration/</id>
-        
-        <content type="html" xml:base="https://augnun.github.io/posts/configuration/">&lt;h1 id=&quot;site-configuration&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#site-configuration&quot; aria-label=&quot;Anchor link for: site-configuration&quot;&gt;Site Configuration&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Blog do Augusto - documentation</title>
+      <link>https://augnun.github.io</link>
+      <description>Um blog de divagações, questões e incertezas.</description>
+      <generator>Zola</generator>
+      <language>pt</language>
+      <atom:link href="https://augnun.github.io/tags/documentation/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Configuring Apollo</title>
+          <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/posts/configuration/</link>
+          <guid>https://augnun.github.io/posts/configuration/</guid>
+          <description xml:base="https://augnun.github.io/posts/configuration/">&lt;h1 id=&quot;site-configuration&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#site-configuration&quot; aria-label=&quot;Anchor link for: site-configuration&quot;&gt;Site Configuration&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;search-build-search-index&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#search-build-search-index&quot; aria-label=&quot;Anchor link for: search-build-search-index&quot;&gt;Search (&lt;code&gt;build_search_index&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Enables or disables the search functionality for your blog.&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -447,7 +438,7 @@ template = &amp;quot;talks.html&amp;quot;
 remote_video = &amp;quot;https:&amp;#x2F;&amp;#x2F;example.com&amp;#x2F;videos&amp;#x2F;demo.mp4&amp;quot;
 &lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The browser will automatically detect the video format, so you don&#x27;t need to worry about specifying the MIME type.&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-</feed>
+</description>
+      </item>
+    </channel>
+</rss>
