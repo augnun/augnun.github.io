@@ -3,10 +3,11 @@
 
     <head>
     
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="base" content="https:&#x2F;&#x2F;augnun.github.io" />
+    <meta name="base" content="https://augnun.github.io" />
 
     
 
@@ -68,7 +69,7 @@
                 <link rel="alternate"
                       type="application/rss+xml"
                       title="
-    Blog do Augusto
+Blog do Augusto
 "
                       href="https://augnun.github.io/rss.xml" />
             
@@ -116,11 +117,13 @@
     
 
     
+
 </head>
 
 
     <body>
         
+
         <div class="left-content">
             
             
@@ -130,7 +133,7 @@
             <nav>
     <div class="left-nav">
         
-            <a href=https:&#x2F;&#x2F;augnun.github.io>Blog do Augusto</a>
+            <a href=https://augnun.github.io>Blog do Augusto</a>
         
 
 
@@ -188,11 +191,11 @@
                 <div class="title">
                     
                     
-    
-        <div class="page-header">
-            Creating a Custom Homepage
-        </div>
-    
+
+    <div class="page-header">
+        Creating a Custom Homepage
+    </div>
+
 
 
                     <div class="meta">
@@ -228,24 +231,24 @@
 <h2 id="1-create-a-custom-homepage-template"><a class="zola-anchor" href="#1-create-a-custom-homepage-template" aria-label="Anchor link for: 1-create-a-custom-homepage-template">1. Create a Custom Homepage Template</a></h2>
 <p>The first step is to create a custom homepage template. In the root of your Zola project, create a new file at <code>templates/home.html</code>. This file will contain the HTML for your custom homepage.</p>
 <p>You can use the following code as a starting point:</p>
-<pre data-lang="html" class="language-html "><code class="language-html" data-lang="html">{% extends &quot;base.html&quot; %}
+<pre><code data-lang="html">{% extends &quot;base.html&quot; %}
 
 {% block main_content %}
     &lt;main&gt;
         &lt;article&gt;
             &lt;section class=&quot;body&quot;&gt;
-                &lt;h1&gt;Welcome to my custom homepage!&lt;&#x2F;h1&gt;
-                &lt;p&gt;This is where you can introduce yourself and your work.&lt;&#x2F;p&gt;
-            &lt;&#x2F;section&gt;
-        &lt;&#x2F;article&gt;
-    &lt;&#x2F;main&gt;
+                &lt;h1&gt;Welcome to my custom homepage!&lt;/h1&gt;
+                &lt;p&gt;This is where you can introduce yourself and your work.&lt;/p&gt;
+            &lt;/section&gt;
+        &lt;/article&gt;
+    &lt;/main&gt;
 {% endblock main_content %}
 </code></pre>
 <p>This template extends the theme's <code>base.html</code> template and overrides the <code>main_content</code> block with your own content.</p>
 <h2 id="2-set-the-homepage-template"><a class="zola-anchor" href="#2-set-the-homepage-template" aria-label="Anchor link for: 2-set-the-homepage-template">2. Set the Homepage Template</a></h2>
 <p>Next, you need to tell Zola to use your custom homepage template. In the <code>content</code> directory of your Zola project, you should have a <code>_index.md</code> file. If you don't have one, create one.</p>
 <p>In this file, add the following front matter:</p>
-<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">+++
+<pre><code data-lang="toml">+++
 template = &quot;home.html&quot;
 +++
 </code></pre>
@@ -253,65 +256,65 @@ template = &quot;home.html&quot;
 <h2 id="3-add-content-to-your-homepage"><a class="zola-anchor" href="#3-add-content-to-your-homepage" aria-label="Anchor link for: 3-add-content-to-your-homepage">3. Add Content to Your Homepage</a></h2>
 <p>Now you can add content to your homepage. The content of the <code>content/_index.md</code> file will be available in your <code>templates/home.html</code> template as the <code>section</code> variable.</p>
 <p>For example, you can add a title and some introductory text to your <code>content/_index.md</code> file:</p>
-<pre data-lang="toml" class="language-toml "><code class="language-toml" data-lang="toml">+++
+<pre><code data-lang="toml">+++
 title = &quot;Hey there! 👋🏼&quot;
 template = &quot;home.html&quot;
 +++
 
-I&#x27;m a software engineer who loves to write about technology and programming.
+I&#39;m a software engineer who loves to write about technology and programming.
 </code></pre>
 <p>You can then display this content in your <code>templates/home.html</code> template:</p>
-<pre data-lang="html" class="language-html "><code class="language-html" data-lang="html">{% extends &quot;base.html&quot; %}
+<pre><code data-lang="html">{% extends &quot;base.html&quot; %}
 
-{% macro home_page(section) %}
+{% component home_page(section: map) %}
     &lt;main&gt;
         &lt;article&gt;
             &lt;section class=&quot;body&quot;&gt;
-                {{ post_macros::page_header(title=section.title) }}
+                {{&lt;post.page_header title={section.title} /&gt;}}
                 {{ section.content | safe }}
-            &lt;&#x2F;section&gt;
-        &lt;&#x2F;article&gt;
-    &lt;&#x2F;main&gt;
-{% endmacro home_page %}
+            &lt;/section&gt;
+        &lt;/article&gt;
+    &lt;/main&gt;
+{% endcomponent home_page %}
 
 {% block main_content %}
-    {{ self::home_page(section=section) }}
+    {{&lt;home_page section={section} /&gt;}}
 {% endblock main_content %}
 </code></pre>
 <h2 id="4-displaying-posts"><a class="zola-anchor" href="#4-displaying-posts" aria-label="Anchor link for: 4-displaying-posts">4. Displaying Posts</a></h2>
 <p>You can also display a list of your recent posts on your homepage. The following code shows how to display the 5 most recent posts:</p>
-<pre data-lang="html" class="language-html "><code class="language-html" data-lang="html">{% extends &quot;base.html&quot; %}
+<pre><code data-lang="html">{% extends &quot;base.html&quot; %}
 
-{% macro home_page(section) %}
+{% component home_page(section: map) %}
     &lt;main&gt;
         &lt;article&gt;
             &lt;section class=&quot;body&quot;&gt;
-                {{ post_macros::page_header(title=section.title) }}
+                {{&lt;post.page_header title={section.title} /&gt;}}
                 {{ section.content | safe }}
-            &lt;&#x2F;section&gt;
-        &lt;&#x2F;article&gt;
-    &lt;&#x2F;main&gt;
-{% endmacro home_page %}
+            &lt;/section&gt;
+        &lt;/article&gt;
+    &lt;/main&gt;
+{% endcomponent home_page %}
 
 {% block main_content %}
-    {{ self::home_page(section=section) }}
+    {{&lt;home_page section={section} /&gt;}}
 
-    &lt;h1&gt;Recent articles&lt;&#x2F;h1&gt;
+    &lt;h1&gt;Recent articles&lt;/h1&gt;
     &lt;main class=&quot;post-list&quot;&gt;
-        {% set section = get_section(path=&quot;posts&#x2F;_index.md&quot;) %}
-        {{ post_macros::list_posts(pages=section.pages | slice(end=5)) }}
-    &lt;&#x2F;main&gt;
+        {% set section = get_section(path=&quot;posts/_index.md&quot;) %}
+        {{&lt;post.list_posts pages=section.pages[:5] /&gt;}}
+    &lt;/main&gt;
 {% endblock main_content %}
 </code></pre>
-<p>This code gets the <code>posts</code> section and then uses the <code>post_macros::list_posts</code> macro to display the 5 most recent posts.</p>
+<p>This code gets the <code>posts</code> section and then uses the <code>post.list_posts</code> component to display the 5 most recent posts.</p>
 <p>You can also highlight specific posts by getting them by their path:</p>
-<pre data-lang="html" class="language-html "><code class="language-html" data-lang="html">{% set highlights = [
-    get_page(path=&quot;posts&#x2F;my-first-post.md&quot;),
-    get_page(path=&quot;posts&#x2F;my-second-post.md&quot;),
+<pre><code data-lang="html">{% set highlights = [
+    get_page(path=&quot;posts/my-first-post.md&quot;),
+    get_page(path=&quot;posts/my-second-post.md&quot;),
 ] %}
 &lt;main class=&quot;post-list&quot;&gt;
-    {{ post_macros::list_posts(pages=highlights) }}
-&lt;&#x2F;main&gt;
+    {{&lt;post.list_posts pages={highlights} /&gt;}}
+&lt;/main&gt;
 </code></pre>
 <p>This is just a starting point. You can customize your homepage as much as you want.</p>
 
@@ -336,6 +339,7 @@ I&#x27;m a software engineer who loves to write about technology and programming
 
         </div>
         
+
     </body>
 
 </html>

@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 
-{% import "macros/components.html" as components %}
-
-{% macro talk_posts(pages) %}
+{% component talk_posts(pages: array, section: map) %}
     <div class="talks-grid">
         {%- for page in pages %}
             <div class="talk-card">
@@ -77,19 +75,19 @@
 
                     <div class="meta">
                         {%- if page.date %}
-                            {{ components::icon_button(href="#", text=page.date | date(format="%B %d, %Y") , icon="calendar", disabled=true, icon_path="icons/") }}
+                            {{<ui.icon_button href="#" text={page.date | date(format="%B %d, %Y")} icon="calendar" disabled={true} icon_path="icons/" />}}
                         {% endif -%}
 
                         {% if page.extra.organizer.name and page.extra.organizer.link %}
-                            {{ components::icon_button(href=page.extra.organizer.link, text=page.extra.organizer.name, icon="map-pin", icon_path="icons/") }}
+                            {{<ui.icon_button href={page.extra.organizer.link} text={page.extra.organizer.name} icon="map-pin" icon_path="icons/" />}}
                         {% endif %}
 
                         {% if page.extra.slides %}
-                            {{ components::icon_button(href=page.extra.slides, text="Slides", icon="presentation", icon_path="icons/") }}
+                            {{<ui.icon_button href={page.extra.slides} text="Slides" icon="presentation" icon_path="icons/" />}}
                         {% endif %}
 
                         {% if page.extra.code %}
-                            {{ components::icon_button(href=page.extra.code, text="Code", icon="code", icon_path="icons/") }}
+                            {{<ui.icon_button href={page.extra.code} text="Code" icon="code" icon_path="icons/" />}}
                         {% endif %}
 
                         {% if page.draft %}
@@ -102,14 +100,14 @@
 
         {% endfor -%}
     </div>
-{% endmacro talk_posts %}
+{% endcomponent talk_posts %}
 
 {% block main_content %}
     {% if section.extra.section_path -%}
         {% set section = get_section(path=section.extra.section_path) %}
     {% endif -%}
 
-    {{ post_macros::page_header(title=section.title) }}
+    {{<post.page_header title={section.title} />}}
 
     {% if section.content %}
         <div class="section-content">
@@ -124,7 +122,7 @@
             {%- set show_pages = section.pages -%}
         {% endif -%}
 
-        {{ self::talk_posts(pages=show_pages) }}
+        {{<talk_posts pages={show_pages} section={section} />}}
     </main>
 
     {% if paginator %}

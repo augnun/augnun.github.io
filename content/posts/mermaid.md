@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/not-matthias/apollo/refs/heads/main/content/po
 
 ## Rendered Example
 
-{% mermaid() %}
+{% <mermaid> %}
 graph LR
     A[Start] --> B[Initialize]
     B --> C[Processing]
@@ -25,4 +25,4 @@ graph LR
 
     style A fill:#f9f,stroke:#333
     style E fill:#9f9,stroke:#333
-{% end %}
+{% </mermaid> %}

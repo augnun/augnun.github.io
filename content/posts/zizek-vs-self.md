@@ -18,6 +18,11 @@ Zizek has written one of my favorite books: [First as Tragedy, Then as Farce](ht
 As always: don't read the video comments. People have greatly misunderstood the interaction between them: they think Self is childish and narcisistic, but he is merely presenting himself as a staunch cynic, pessimist and skeptical of revolutionary action. I don't particularly agree with him specifically in the last point, but I think he presents this sincerely and must be recognized.
 
 
-{{< youtube CId1iOWQUuo >}}
+<iframe width="560" height="315"
+	src="https://www.youtube.com/embed/CId1iOWQUuo"
+	title="Zizek vs Self: On Dangerous Ideas"
+	frameborder="0"
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+	allowfullscreen></iframe>
 
 

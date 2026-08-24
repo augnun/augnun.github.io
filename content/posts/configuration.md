@@ -190,7 +190,7 @@ When enabled, you can create expandable/collapsible note sections in your blog p
 
 We support custom character shortcodes for adding dialogue and interactive characters to your blog posts. You can use them via [shortcodes](https://www.getzola.org/documentation/content/shortcodes/):
 ```
-{{ /* character(name="character-name", body="Character dialogue text") */ }}
+&#123;% &lt;character name="character-name"&gt; %&#125;Character dialogue text&#123;% &lt;/character&gt; %&#125;
 ```
 
 These are the supported parameters:
@@ -199,18 +199,18 @@ These are the supported parameters:
 - `position` (optional): Position the character on the left or right. Values: "left" or default (right)
 
 
-{{ character(body="Isn't it amazing?") }}
+{% <character> %}Isn't it amazing?{% </character> %}
 
-{{ character(body="Yes! And it's really easy to use", position="left") }}
+{% <character position="left"> %}Yes! And it's really easy to use{% </character> %}
 
-{% character() %}
+{% <character> %}
 We can even use multiple lines with code:
 ```rust
 fn main() {
   println!("Hey there!");
 }
 ```
-{% end %}
+{% </character> %}
 
 ## Anchor Links
 
@@ -230,6 +230,7 @@ reverse = true
 ```
 
 The `sort_by` argument is directly passed to the `sort_by` function:
+{% raw %}
 ```jinja
 {% set sort_by = config.extra.taxonomies.sort_by | default(value="name") %}
 {% set terms = terms | default(value=[]) | sort(attribute=sort_by) %}
@@ -246,6 +247,7 @@ The `sort_by` argument is directly passed to the `sort_by` function:
     </li>
 {% endfor %}
 ```
+{% endraw %}
 
 Possible values include anything within the [TaxonomyTerm object](https://www.getzola.org/documentation/templates/taxonomies/):
 ```rust

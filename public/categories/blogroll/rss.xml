@@ -14,8 +14,8 @@
           <author>Unknown</author>
           <link>https://augnun.github.io/blog/the-problem-with-disqus/</link>
           <guid>https://augnun.github.io/blog/the-problem-with-disqus/</guid>
-          <description xml:base="https://augnun.github.io/blog/the-problem-with-disqus/">&lt;p&gt;Recently I saw on &lt;a href=&quot;https:&#x2F;&#x2F;news.ycombinator.com&quot;&gt;Hacker News&lt;&#x2F;a&gt; a very nice blog post about disqus: it always seemed to me like a shady tool, ubiquitous but at the same time leading to some potential privacy risks.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;supunkavinda.blog&#x2F;disqus&quot;&gt;Supun Kavinda&#x27;s very nice explanation&lt;&#x2F;a&gt; puts a light to this pro&lt;&#x2F;p&gt;
+          <description xml:base="https://augnun.github.io/blog/the-problem-with-disqus/">&lt;p&gt;Recently I saw on &lt;a rel=&quot;external&quot; href=&quot;https://news.ycombinator.com&quot;&gt;Hacker News&lt;/a&gt; a very nice blog post about disqus: it always seemed to me like a shady tool, ubiquitous but at the same time leading to some potential privacy risks.&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https://supunkavinda.blog/disqus&quot;&gt;Supun Kavinda&#39;s very nice explanation&lt;/a&gt; puts a light to this pro&lt;/p&gt;
 </description>
       </item>
     </channel>

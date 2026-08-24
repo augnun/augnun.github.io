@@ -1,7 +1,5 @@
-{% import "macros/macros.html" as post_macros %}
-
 <head>
-    {% include "apollo/head_start.html" ignore missing %}
+    {% include "apollo/head_start.html" %}
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +10,7 @@
               content="{{ config.extra.fediverse_creator }}" />
     {% endif %}
 
-    {% if page.extra.meta %}
+    {% if page?.extra?.meta %}
         <!-- the meta data config goes here  -->
         {% for data in page.extra.meta %}
             <meta {% for key, value in data %} {% if key == "property" and value == "og:title" %} {% set_global page_has_og_title = true -%} {% endif %}
@@ -27,16 +25,16 @@
     {# Site title #}
     {% set current_path = current_path | default(value="/") %}
     {% if current_path == "/" %}
-        <title>{{ post_macros::site_title() }}</title>
+        <title>{{<post.site_title config={config} />}}</title>
         {% if not page_has_og_title %}
-            <meta property="og:title" content="{{ post_macros::site_title() }}" />
+            <meta property="og:title" content="{{<post.site_title config={config} />}}" />
         {% endif %}
 
     {% else %}
         <title>
-            {% if page.title %}
+            {% if page?.title %}
                 {{ page.title }}
-            {% elif section.title %}
+            {% elif section?.title %}
                 {{ section.title }}
             {% elif config.title %}
                 {{ config.title }}
@@ -47,12 +45,12 @@
 
         {% if not page_has_og_title %}
             <meta property="og:title"
-                  content="{% if page.title -%}{{ page.title }}{% elif config.title -%}{{ config.title }}{% else -%}Post{% endif -%}" />
+                  content="{% if page?.title -%}{{ page.title }}{% elif config.title -%}{{ config.title }}{% else -%}Post{% endif -%}" />
         {% endif %}
     {% endif %}
 
     {% if not page_has_og_description %}
-        {% if page.description %}
+        {% if page?.description %}
             <meta property="og:description" content="{{ page.description }}" />
         {% elif config.description %}
             <meta property="og:description" content="{{ config.description }}" />
@@ -60,7 +58,7 @@
     {% endif %}
 
     {% if not page_has_description %}
-        {% if page.description %}
+        {% if page?.description %}
             <meta name="description" content="{{ page.description }}" />
         {% elif config.description %}
             <meta name="description" content="{{ config.description }}" />
@@ -86,8 +84,8 @@
     {% endif %}
 
     {# Analytics #}
-    {% if config.extra.analytics.enabled %}
-        {% if config.extra.analytics.umami.website_id %}
+    {% if config.extra?.analytics?.enabled %}
+        {% if config.extra.analytics?.umami?.website_id %}
             {% set website_id = config.extra.analytics.umami.website_id %}
             {% set host_url = config.extra.analytics.umami.host_url | default(value="https://api-gateway.umami.dev/") %}
 
@@ -97,7 +95,7 @@
                     data-host-url="{{ host_url }}"></script>
         {% endif %}
 
-        {% if config.extra.analytics.goatcounter.user %}
+        {% if config.extra.analytics?.goatcounter?.user %}
             {% set user = config.extra.analytics.goatcounter.user %}
             {% set host = config.extra.analytics.goatcounter.host | default(value="goatcounter.com") %}
 
@@ -106,11 +104,11 @@
                     src="{{ get_url(path="js/count.js") }}"></script>
             <noscript>
                 {# EasyList blocks '.com/count?', so we have to use '.com//count' #}
-                <img src="https://{{ user }}.{{ host }}//count?p={{ current_path }}&t={{ page.title | default(value=config.title) }}" />
+                <img src="https://{{ user }}.{{ host }}//count?p={{ current_path }}&t={{ page?.title | default(value=config.title) }}" />
             </noscript>
         {% endif %}
 
-        {% if config.extra.analytics.google.tracking_id %}
+        {% if config.extra.analytics?.google?.tracking_id %}
             {% set tracking_id = config.extra.analytics.google.tracking_id %}
 
             <!-- Google tag (gtag.js) -->
@@ -143,7 +141,7 @@
         <script defer src={{ get_url(path="js/note.js") }}></script>
     {% endif %}
 
-    {% if config.extra.mathjax | default(value=false) or page.extra.mathjax | default(value=false) %}
+    {% if config.extra.mathjax | default(value=false) or page?.extra?.mathjax | default(value=false) %}
         <script>
             MathJax = {
                 tex: {
@@ -164,12 +162,12 @@
             {% if feed_filenames == "atom.xml" %}
                 <link rel="alternate"
                       type="application/atom+xml"
-                      title="{{ post_macros::site_title() }}"
+                      title="{{<post.site_title config={config} />}}"
                       href="{{ get_url(path='atom.xml', trailing_slash=false) }}" />
             {% elif feed_filenames == "rss.xml" %}
                 <link rel="alternate"
                       type="application/rss+xml"
-                      title="{{ post_macros::site_title() }}"
+                      title="{{<post.site_title config={config} />}}"
                       href="{{ get_url(path='rss.xml', trailing_slash=false) }}" />
             {% endif %}
         {% endfor %}
@@ -179,7 +177,7 @@
     {% set theme = config.extra.theme | default(value="toggle") %}
 
     {# Syntax theme #}
-    {% if config.markdown.highlighting and config.markdown.highlighting.style == "class" %}
+    {% if config.markdown?.highlighting and config.markdown.highlighting.style == "class" %}
         {% if theme == "dark" %}
             <link rel="stylesheet"
                   type="text/css"
@@ -274,7 +272,7 @@
 
     {# Search #}
     {%- if config.build_search_index -%}
-        {%- if config.search.index_format -%}
+        {%- if config.search?.index_format -%}
             {%- set search_index_format = config.search.index_format -%}
         {%- elif config.extra.index_format -%}
             {# Necessary to support Zola 0.17.X, as it doesn't have access to config.search.index_format #}
@@ -294,5 +292,5 @@
                 src="{{ get_url(path='js/searchElasticlunr.min.js', cachebust=true) | safe }}"></script>
     {%- endif -%}
 
-    {% include "apollo/head_end.html" ignore missing %}
+    {% include "apollo/head_end.html" %}
 </head>

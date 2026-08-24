@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 
-{% macro content(page) %}
+{% component page_content(page: map, config: map) %}
     <div class="visible-element-observer-root" data-selector="main article p">
         <main>
             <article>
                 <div class="title">
                     {#<h1 class="title">{{ page.title }}</h1>#}
-                    {{ post_macros::page_header(title=page.title) }}
+                    {{<post.page_header title={page.title} />}}
 
                     <div class="meta">
                         {% if page.date %}
@@ -44,7 +44,7 @@
                         {% endif %}
 
                         {# Inline display of authors directly after the date #}
-                        {% if page.taxonomies and page.taxonomies.authors %}
+                        {% if page.taxonomies?.authors %}
                             <span class="authors-label">::</span>
                             <span class="authors">
                                 {%- for author in page.taxonomies.authors %}
@@ -55,7 +55,7 @@
                         {% endif %}
 
                         {# Inline display of tags directly after the authors #}
-                        {% if page.taxonomies and page.taxonomies.tags %}
+                        {% if page.taxonomies?.tags %}
                             <span class="tags-label">::</span>
                             <span class="tags">
                                 {%- for tag in page.taxonomies.tags | sort %}
@@ -72,7 +72,7 @@
                     </div>
                 </div>
 
-                {% if page.extra.tldr %}
+                {% if page.extra?.tldr %}
                     <div class="tldr">
                         <strong>tl;dr:</strong>
                         {{ page.extra.tldr }}
@@ -85,16 +85,16 @@
             </article>
         </main>
     </div>
-{% endmacro content %}
+{% endcomponent page_content %}
 
 
 {% block main_content %}
-    {{ self::content(page=page) }}
+    {{<page_content page={page} config={config} />}}
 {% endblock main_content %}
 
 {% block right_content %}
     {# Optional table of contents #}
-    {% if config.extra.toc | default(value=false) and page.toc %}
+    {% if config.extra.toc | default(value=false) and page?.toc %}
         {% include "partials/toc.html" %}
     {% endif %}
 {% endblock right_content %}

@@ -10,7 +10,7 @@
 
 
         <div class="socials">
-            {% if config.markdown.external_links_target_blank %}
+            {% if config.markdown?.external_links_target_blank %}
                 {% set link_attrs = "rel='me noopener' target='_blank'" %}
             {% else %}
                 {% set link_attrs = "rel='me'" %}

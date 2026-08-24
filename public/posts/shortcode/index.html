@@ -3,10 +3,11 @@
 
     <head>
     
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="base" content="https:&#x2F;&#x2F;augnun.github.io" />
+    <meta name="base" content="https://augnun.github.io" />
 
     
 
@@ -68,7 +69,7 @@
                 <link rel="alternate"
                       type="application/rss+xml"
                       title="
-    Blog do Augusto
+Blog do Augusto
 "
                       href="https://augnun.github.io/rss.xml" />
             
@@ -116,11 +117,13 @@
     
 
     
+
 </head>
 
 
     <body>
         
+
         <div class="left-content">
             
             
@@ -130,7 +133,7 @@
             <nav>
     <div class="left-nav">
         
-            <a href=https:&#x2F;&#x2F;augnun.github.io>Blog do Augusto</a>
+            <a href=https://augnun.github.io>Blog do Augusto</a>
         
 
 
@@ -188,11 +191,11 @@
                 <div class="title">
                     
                     
-    
-        <div class="page-header">
-            Shortcode Example
-        </div>
-    
+
+    <div class="page-header">
+        Shortcode Example
+    </div>
+
 
 
                     <div class="meta">
@@ -233,97 +236,65 @@
                 <section class="body">
                     <h2 id="note"><a class="zola-anchor" href="#note" aria-label="Anchor link for: note">Note</a></h2>
 <p>Here is an example of the <code>note</code> shortcode:</p>
-<p>This one is static!
+<p>This one is static!</p>
 <div class="note-container">
-    
-            <div class="note-header">
-                
-                    <div class="note-icon">
-                        <p>Note!</p>
-
-                    </div>
-                
-            </div>
-            <div class="note-content">
-                <p>This blog assumes basic terminal maturity</p>
-
-            </div>
-        
-    </div>
-</p>
-<p>This one is clickable!
+<div class="note-header">
+<div class="note-icon">
+<p>Note!</p>
+</div>
+</div>
+<div class="note-content">
+<p>This blog assumes basic terminal maturity</p>
+</div>
+</div>
+<p>This one is clickable!</p>
 <div class="note-container">
-    
-        <button class="note-toggle">
-            
-                <div class="note-icon">
-                    <p>Quiz!</p>
-
-                </div>
-            
-        </button>
-
-        
-            <div class="note-content" style="display: none;">
-            
-                <p>The answer to the quiz!</p>
-
-            </div>
-        
-    </div>
-</p>
+<button class="note-toggle">
+<div class="note-icon">
+<p>Quiz!</p>
+</div>
+</button>
+<div class="note-content" style="display: none;">
+<p>The answer to the quiz!</p>
+</div>
+</div>
 <p>Syntax:</p>
-<pre><code>{{ note(header=&quot;Note!&quot;, body=&quot;This blog assumes basic terminal maturity&quot;) }}
-{{ note(clickable=true, hidden = true, header=&quot;Quiz!&quot;, body=&quot;The answer to the quiz!&quot;) }}
+<pre><code>&amp;#123;&amp;#123;&amp;lt;note header=&quot;Note!&quot; body=&quot;This blog assumes basic terminal maturity&quot; /&amp;gt;&amp;#125;&amp;#125;
+&amp;#123;&amp;#123;&amp;lt;note clickable=&amp;#123;true&amp;#125; hidden=&amp;#123;true&amp;#125; header=&quot;Quiz!&quot; body=&quot;The answer to the quiz!&quot; /&amp;gt;&amp;#125;&amp;#125;
 </code></pre>
-<p>You can also use some HTML in the text:
+<p>You can also use some HTML in the text:</p>
 <div class="note-container">
-    
-            <div class="note-header">
-                
-                    <div class="note-icon">
-                        <p>Note!</p>
-
-                    </div>
-                
-            </div>
-            <div class="note-content">
-                <h1>This blog assumes basic terminal maturity</h1>
-            </div>
-        
-    </div>
-</p>
+<div class="note-header">
+<div class="note-icon">
+<p>Note!</p>
+</div>
+</div>
+<div class="note-content">
+<h1>This blog assumes basic terminal maturity</h1>
+</div>
+</div>
 <p>Literal shortcode:</p>
-<pre><code>{{ note(header=&quot;Note!&quot;, body=&quot;&lt;h1&gt;This blog assumes basic terminal maturity&lt;&#x2F;h1&gt;&quot;) }}
+<pre><code>&amp;#123;&amp;#123;&amp;lt;note header=&quot;Note!&quot; body=&quot;&amp;lt;h1&amp;gt;This blog assumes basic terminal maturity&amp;lt;/h1&amp;gt;&quot; /&amp;gt;&amp;#125;&amp;#125;
 </code></pre>
 <p>Pretty cool, right?</p>
 <p>Finally, you can do something like this (hopefully):</p>
 <div class="note-container">
-    
-        <button class="note-toggle">
-            
-                <div class="note-icon">
-                    <p>Quiz!</p>
-
-                </div>
-            
-        </button>
-
-        
-                <div class="note-content" style="display: block;">
-                
-                <h1 id="hello-this-is-markdown-inside-a-note-shortcode">Hello this is markdown inside a note shortcode</h1>
-<pre data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust">fn main() {
+<button class="note-toggle">
+<div class="note-icon">
+<p>Quiz!</p>
+</div>
+</button>
+<div class="note-content" style="display: block;">
+<h1 id="hello-this-is-markdown-inside-a-note-shortcode">Hello this is markdown inside a note shortcode</h1>
+<pre><code data-lang="rust">fn main() {
     println!(&quot;Hello World&quot;);
 }
 </code></pre>
 <p>We can't call another shortcode inside a shortcode, but this is good enough.</p>
-
-            </div>
-        
-    </div>
+</div>
+</div>
 <p>Here is the raw markdown:</p>
-<pre data-lang="markdown" class="language-markdown "><code class="language-markdown" data-lang="markdown">{{ note(clickable=true, header=&quot;Quiz!&quot;) }}
+<pre><code data-lang="markdown">&amp;#123;% &amp;lt;note clickable=&amp;#123;true&amp;#125; header=&quot;Quiz!&quot;&amp;gt; %&amp;#125;
 
 # Hello this is markdown inside a note shortcode
 
@@ -333,29 +304,22 @@ fn main() {
 }
 \`\`\`
 
-We can&#x27;t call another shortcode inside a shortcode, but this is good enough.
+We can&#39;t call another shortcode inside a shortcode, but this is good enough.
 
-{{&#x2F;* end *&#x2F;}}
+&amp;#123;% &amp;lt;/note&amp;gt; %&amp;#125;
 </code></pre>
-<p>Finally, we have center
+<p>Finally, we have center</p>
 <div class="note-container">
-    
-            <div class="note-header">
-                
-                    <div class="note-center">
-                        <p>Centered Text</p>
-
-                    </div>
-                
-            </div>
-            <div class="note-content">
-                <p>This is centered text</p>
-
-            </div>
-        
-    </div>
-</p>
-<pre data-lang="markdown" class="language-markdown "><code class="language-markdown" data-lang="markdown">{{ note(center=true, header=&quot;Centered Text&quot;, body=&quot;This is centered text&quot;) }}
+<div class="note-header">
+<div class="note-center">
+<p>Centered Text</p>
+</div>
+</div>
+<div class="note-content">
+<p>This is centered text</p>
+</div>
+</div>
+<pre><code data-lang="markdown">&amp;#123;&amp;#123;&amp;lt;note center=&amp;#123;true&amp;#125; header=&quot;Centered Text&quot; body=&quot;This is centered text&quot; /&amp;gt;&amp;#125;&amp;#125;
 </code></pre>
 <p>It works good enough for me!</p>
 
@@ -386,6 +350,7 @@ We can&#x27;t call another shortcode inside a shortcode, but this is good enough
 
         </div>
         
+
     </body>
 
 </html>
