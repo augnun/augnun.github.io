@@ -29,6 +29,7 @@ menu = [
   { name = "Posts", url = "/posts", weight = 3 },
   { name = "Projects", url = "/projects", weight = 4 },
   { name = "Sobre", url = "/about", weight = 5 },
+  { name = "Loja", url = "/loja", weight = 6},
 ]
 
 author = "Augusto Nunes"
