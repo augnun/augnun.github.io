@@ -1,3 +1,9 @@
++++
+title = "Loja de HQs e Graphic Novels"
+
+
++++
+
 # Catálogo de HQs e Graphic Novels à Venda
 
 Confira abaixo a lista detalhada de quadrinhos e graphic novels disponíveis para venda.
@@ -29,7 +35,7 @@ Confira abaixo a lista detalhada de quadrinhos e graphic novels disponíveis par
 - **Detalhes:** Volumes 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 18, 19, 25, 27, 29, 30, 34, 35, 37, 38, 43, 44, 49, 50
 - **Editora/Ano:** Panini Comics
 - **Preço:** R$ 15,00
-![Revistas Vertigo](20260818_190345.jpg)
+![Revistas Vertigo](../_anexos/20260818_190345.jpg)
 
 ---
 
@@ -44,7 +50,7 @@ Confira abaixo a lista detalhada de quadrinhos e graphic novels disponíveis par
 - **Autor(a):** Charles Burns
 - **Editora/Ano:** Editora Conrad - 2007 e 2008
 - **Preço:** R$ 50,00
-![Black Hole](20260818_191054.jpg)
+![Black Hole](../_anexos/20260818_191054.jpg)
 
 ---
 
@@ -53,7 +59,7 @@ Confira abaixo a lista detalhada de quadrinhos e graphic novels disponíveis par
 - **Autor(a):** Vários
 - **Editora/Ano:** Panini Comics - 2013
 - **Preço:** R$ 20,00
-![Vertigo Especial](20260818_191607.jpg)
+![Vertigo Especial](../_anexos/20260818_191607.jpg)
 
 ---
 
@@ -68,7 +74,7 @@ Confira abaixo a lista detalhada de quadrinhos e graphic novels disponíveis par
 - **Autor(a):** Brian Azzarello, Daniel Zezelj e Werther Dell'edera
 - **Editora/Ano:** Panini Comics - 2010
 - **Preço:** R$ 25,00
-![Loveless - Mais Denso que Sangue](20260818_192533.jpg)
+![Loveless - Mais Denso que Sangue](../_anexos/20260818_192533.jpg)
 
 ---
 
@@ -83,7 +89,7 @@ Confira abaixo a lista detalhada de quadrinhos e graphic novels disponíveis par
 - **Autor(a):** Neil Gaiman
 - **Editora/Ano:** Vertigo (US) - 2010
 - **Preço:** R$ 70,00
-![The Sandman](20260818_192144.jpg)
+![The Sandman](../_anexos/20260818_192144.jpg)
 
 ---
 
@@ -98,7 +104,7 @@ Confira abaixo a lista detalhada de quadrinhos e graphic novels disponíveis par
 - **Autor(a):** Willingham, Buckingham, Leialoha, Alexovich e Pepoy
 - **Editora/Ano:** Panini Comics - 2010
 - **Preço:** R$ 20,00
-![Fábulas Vol. 10](20260818_193022.jpg)
+![Fábulas Vol. 10](../_anexos/20260818_193022.jpg)
 
 ---
 
@@ -106,7 +112,7 @@ Confira abaixo a lista detalhada de quadrinhos e graphic novels disponíveis par
 - **Autor(a):** Willingham, Buckingham, Leialoha, Akins e Palmiotti
 - **Editora/Ano:** Panini Comics - 2010
 - **Preço:** R$ 20,00
-![Fábulas Vol. 5](20260818_193247.jpg)
+![Fábulas Vol. 5](../_anexos/20260818_193247.jpg)
 
 ---
 
@@ -118,11 +124,10 @@ Confira abaixo a lista detalhada de quadrinhos e graphic novels disponíveis par
 ---
 
 ### John Constantine Hellblazer Origens - Newcastle & A Máquina do Medo
-- **Detalhes:** *Na listagem constava como Vol. 1, mas a capa da foto indica Vol. 3*
 - **Autor(a):** Delano, Buckingham, Piers Rayner e Hoffman
 - **Editora/Ano:** Panini Comics - 2014
 - **Preço:** R$ 50,00
-![Hellblazer Newcastle](20260818_193800.jpg)
+![Hellblazer Newcastle](../_anexos/20260818_193800.jpg)
 
 ---
 
@@ -130,4 +135,4 @@ Confira abaixo a lista detalhada de quadrinhos e graphic novels disponíveis par
 - **Autor(a):** Palmiotti, Gray e Ross
 - **Editora/Ano:** Panini Comics - 2010
 - **Preço:** R$ 30,00
-![Jonah Hex](20260818_194746.jpg)
+![Jonah Hex](../_anexos/20260818_194746.jpg)
