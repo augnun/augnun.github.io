@@ -6,6 +6,7 @@ theme = "apollo"
 
 compile_sass = true
 
+mathjax = true
 
 # highlight_code = true
 # highlight_theme = "base16-ocean-dark"
