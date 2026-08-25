@@ -272,6 +272,17 @@
 </description>
       </item>
       <item>
+          <title>Problema 3718 do Leetcode</title>
+          <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://augnun.github.io/blog/2022-02-01-problema-3718-do-leetcode/</link>
+          <guid>https://augnun.github.io/blog/2022-02-01-problema-3718-do-leetcode/</guid>
+          <description xml:base="https://augnun.github.io/blog/2022-02-01-problema-3718-do-leetcode/">&lt;p&gt;Uma outra plataforma legal de aprendizado é o &lt;a rel=&quot;external&quot; href=&quot;https://leetcode.com&quot;&gt;Leetcode&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hoje vou falar um pouco sobre o &lt;a rel=&quot;external&quot; href=&quot;https://leetcode.com/problems/smallest-missing-multiple-of-k&quot;&gt;problema 3718 - Menor Múltiplo Faltante de K&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dado um array de inteiros &lt;code&gt;nums&lt;/code&gt; e um inteiro &lt;code&gt;k&lt;/code&gt;, retorne o menor múltiplo possível de &lt;code&gt;k&lt;/code&gt; que não está em &lt;code&gt;nums&lt;/code&gt;.&lt;/p&gt;
+</description>
+      </item>
+      <item>
           <title>Problema 15 do Projeto Euler</title>
           <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
           <author>Unknown</author>

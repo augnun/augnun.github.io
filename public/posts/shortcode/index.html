@@ -274,9 +274,8 @@ Blog do Augusto
 </div>
 </div>
 <p>Syntax:</p>
-<pre><code>&amp;#123;&amp;#123;&amp;lt;note header=&quot;Note!&quot; body=&quot;This blog assumes basic terminal maturity&quot; /&amp;gt;&amp;#125;&amp;#125;
-&amp;#123;&amp;#123;&amp;lt;note clickable=&amp;#123;true&amp;#125; hidden=&amp;#123;true&amp;#125; header=&quot;Quiz!&quot; body=&quot;The answer to the quiz!&quot; /&amp;gt;&amp;#125;&amp;#125;
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="plain"><span class="giallo-l"><span>&amp;#123;&amp;#123;&amp;lt;note header=&quot;Note!&quot; body=&quot;This blog assumes basic terminal maturity&quot; /&amp;gt;&amp;#125;&amp;#125;</span></span>
+<span class="giallo-l"><span>&amp;#123;&amp;#123;&amp;lt;note clickable=&amp;#123;true&amp;#125; hidden=&amp;#123;true&amp;#125; header=&quot;Quiz!&quot; body=&quot;The answer to the quiz!&quot; /&amp;gt;&amp;#125;&amp;#125;</span></span></code></pre>
 <p>You can also use some HTML in the text:</p>
 <div class="note-container">
 <div class="note-header">
@@ -289,8 +288,7 @@ Blog do Augusto
 </div>
 </div>
 <p>Literal shortcode:</p>
-<pre><code>&amp;#123;&amp;#123;&amp;lt;note header=&quot;Note!&quot; body=&quot;&amp;lt;h1&amp;gt;This blog assumes basic terminal maturity&amp;lt;/h1&amp;gt;&quot; /&amp;gt;&amp;#125;&amp;#125;
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="plain"><span class="giallo-l"><span>&amp;#123;&amp;#123;&amp;lt;note header=&quot;Note!&quot; body=&quot;&amp;lt;h1&amp;gt;This blog assumes basic terminal maturity&amp;lt;/h1&amp;gt;&quot; /&amp;gt;&amp;#125;&amp;#125;</span></span></code></pre>
 <p>Pretty cool, right?</p>
 <p>Finally, you can do something like this (hopefully):</p>
 <div class="note-container">
@@ -301,28 +299,26 @@ Blog do Augusto
 </button>
 <div class="note-content" style="display: block;">
 <h1 id="hello-this-is-markdown-inside-a-note-shortcode">Hello this is markdown inside a note shortcode</h1>
-<pre><code data-lang="rust">fn main() {
-    println!(&quot;Hello World&quot;);
-}
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="rust"><span class="giallo-l"><span style="color: #F97583;">fn</span><span style="color: #B392F0;"> main</span><span>() {</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">    println!</span><span>(</span><span style="color: #9ECBFF;">&quot;Hello World&quot;</span><span>);</span></span>
+<span class="giallo-l"><span>}</span></span></code></pre>
 <p>We can't call another shortcode inside a shortcode, but this is good enough.</p>
 </div>
 </div>
 <p>Here is the raw markdown:</p>
-<pre><code data-lang="markdown">&amp;#123;% &amp;lt;note clickable=&amp;#123;true&amp;#125; header=&quot;Quiz!&quot;&amp;gt; %&amp;#125;
-
-# Hello this is markdown inside a note shortcode
-
-\`\`\`rust
-fn main() {
-    println!(&quot;Hello World&quot;);
-}
-\`\`\`
-
-We can&#39;t call another shortcode inside a shortcode, but this is good enough.
-
-&amp;#123;% &amp;lt;/note&amp;gt; %&amp;#125;
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="markdown"><span class="giallo-l"><span style="color: #79B8FF;">&amp;#123;</span><span>% </span><span style="color: #79B8FF;">&amp;lt;</span><span>note clickable=</span><span style="color: #79B8FF;">&amp;#123;</span><span>true</span><span style="color: #79B8FF;">&amp;#125;</span><span> header=&quot;Quiz!&quot;</span><span style="color: #79B8FF;">&amp;gt;</span><span> %</span><span style="color: #79B8FF;">&amp;#125;</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #79B8FF;font-weight: bold;"># Hello this is markdown inside a note shortcode</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #79B8FF;">\`\`\`</span><span>rust</span></span>
+<span class="giallo-l"><span>fn main() {</span></span>
+<span class="giallo-l"><span>    println!(&quot;Hello World&quot;);</span></span>
+<span class="giallo-l"><span>}</span></span>
+<span class="giallo-l"><span style="color: #79B8FF;">\`\`\`</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span>We can&#39;t call another shortcode inside a shortcode, but this is good enough.</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #79B8FF;">&amp;#123;</span><span>% </span><span style="color: #79B8FF;">&amp;lt;</span><span>/note</span><span style="color: #79B8FF;">&amp;gt;</span><span> %</span><span style="color: #79B8FF;">&amp;#125;</span></span></code></pre>
 <p>Finally, we have center</p>
 <div class="note-container">
 <div class="note-header">
@@ -334,8 +330,7 @@ We can&#39;t call another shortcode inside a shortcode, but this is good enough.
 <p>This is centered text</p>
 </div>
 </div>
-<pre><code data-lang="markdown">&amp;#123;&amp;#123;&amp;lt;note center=&amp;#123;true&amp;#125; header=&quot;Centered Text&quot; body=&quot;This is centered text&quot; /&amp;gt;&amp;#125;&amp;#125;
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="markdown"><span class="giallo-l"><span style="color: #79B8FF;">&amp;#123;&amp;#123;&amp;lt;</span><span>note center=</span><span style="color: #79B8FF;">&amp;#123;</span><span>true</span><span style="color: #79B8FF;">&amp;#125;</span><span> header=&quot;Centered Text&quot; body=&quot;This is centered text&quot; /</span><span style="color: #79B8FF;">&amp;gt;&amp;#125;&amp;#125;</span></span></code></pre>
 <p>It works good enough for me!</p>
 
                 </section>

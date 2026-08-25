@@ -267,16 +267,14 @@ Blog do Augusto
 <p>When enabled, a search index will be generated for your blog, allowing visitors to search for specific content.
 Additionally, a search button will be displayed in the navigation bar.</p>
 <p>Configure the search like this:</p>
-<pre><code data-lang="toml">build_search_index = true
-
-[search]
-include_title = true
-include_description = true
-include_path = true
-include_content = true
-index_format = &quot;elasticlunr_json&quot;
-</code></pre>
-<h2 id="theme-mode-theme"><a class="zola-anchor" href="#theme-mode-theme" aria-label="Anchor link for: theme-mode-theme">Theme Mode (<code>theme</code>)</a></h2>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>build_search_index =</span><span style="color: #79B8FF;"> true</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span>[</span><span style="color: #B392F0;">search</span><span>]</span></span>
+<span class="giallo-l"><span>include_title =</span><span style="color: #79B8FF;"> true</span></span>
+<span class="giallo-l"><span>include_description =</span><span style="color: #79B8FF;"> true</span></span>
+<span class="giallo-l"><span>include_path =</span><span style="color: #79B8FF;"> true</span></span>
+<span class="giallo-l"><span>include_content =</span><span style="color: #79B8FF;"> true</span></span>
+<span class="giallo-l"><span>index_format =</span><span style="color: #9ECBFF;"> &quot;elasticlunr_json&quot;</span></span></code></pre><h2 id="theme-mode-theme"><a class="zola-anchor" href="#theme-mode-theme" aria-label="Anchor link for: theme-mode-theme">Theme Mode (<code>theme</code>)</a></h2>
 <p>Sets the color theme for your blog.</p>
 <ul>
 <li>Type: String</li>
@@ -297,34 +295,28 @@ index_format = &quot;elasticlunr_json&quot;
 <ul>
 <li>Type: Array of objects</li>
 <li>Default: []</li>
-<li>Usage:<pre><code data-lang="toml">menu = [
-  { name = &quot;/posts&quot;, url = &quot;/posts&quot;, weight = 1 },
-  { name = &quot;/projects&quot;, url = &quot;/projects&quot;, weight = 2 },
-  { name = &quot;/about&quot;, url = &quot;/about&quot;, weight = 3 },
-  { name = &quot;/tags&quot;, url = &quot;/tags&quot;, weight = 4 },
-]
-</code></pre>
-</li>
+<li>Usage:<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>menu = [</span></span>
+<span class="giallo-l"><span>  { name =</span><span style="color: #9ECBFF;"> &quot;/posts&quot;</span><span>, url =</span><span style="color: #9ECBFF;"> &quot;/posts&quot;</span><span>, weight =</span><span style="color: #79B8FF;"> 1</span><span> },</span></span>
+<span class="giallo-l"><span>  { name =</span><span style="color: #9ECBFF;"> &quot;/projects&quot;</span><span>, url =</span><span style="color: #9ECBFF;"> &quot;/projects&quot;</span><span>, weight =</span><span style="color: #79B8FF;"> 2</span><span> },</span></span>
+<span class="giallo-l"><span>  { name =</span><span style="color: #9ECBFF;"> &quot;/about&quot;</span><span>, url =</span><span style="color: #9ECBFF;"> &quot;/about&quot;</span><span>, weight =</span><span style="color: #79B8FF;"> 3</span><span> },</span></span>
+<span class="giallo-l"><span>  { name =</span><span style="color: #9ECBFF;"> &quot;/tags&quot;</span><span>, url =</span><span style="color: #9ECBFF;"> &quot;/tags&quot;</span><span>, weight =</span><span style="color: #79B8FF;"> 4</span><span> },</span></span>
+<span class="giallo-l"><span>]</span></span></code></pre></li>
 </ul>
 <h2 id="logo"><a class="zola-anchor" href="#logo" aria-label="Anchor link for: logo">Logo</a></h2>
 <p>Defines the site logo image file.</p>
 <ul>
 <li>Type: String</li>
-<li>Usage:<pre><code data-lang="toml">logo = &quot;site_logo.svg&quot;
-</code></pre>
-</li>
+<li>Usage:<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>logo =</span><span style="color: #9ECBFF;"> &quot;site_logo.svg&quot;</span></span></code></pre></li>
 </ul>
 <h2 id="socials"><a class="zola-anchor" href="#socials" aria-label="Anchor link for: socials">Socials</a></h2>
 <p>Defines the social media links.</p>
 <ul>
 <li>Type: Array of objects</li>
 <li>Default: []</li>
-<li>Usage:<pre><code data-lang="toml">socials = [
-  { name = &quot;twitter&quot;, url = &quot;https://twitter.com/not_matthias&quot;, icon = &quot;twitter&quot; },
-  { name = &quot;github&quot;, url = &quot;https://github.com/not-matthias/&quot;, icon = &quot;github&quot; },
-]
-</code></pre>
-</li>
+<li>Usage:<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>socials = [</span></span>
+<span class="giallo-l"><span>  { name =</span><span style="color: #9ECBFF;"> &quot;twitter&quot;</span><span>, url =</span><span style="color: #9ECBFF;"> &quot;https://twitter.com/not_matthias&quot;</span><span>, icon =</span><span style="color: #9ECBFF;"> &quot;twitter&quot;</span><span> },</span></span>
+<span class="giallo-l"><span>  { name =</span><span style="color: #9ECBFF;"> &quot;github&quot;</span><span>, url =</span><span style="color: #9ECBFF;"> &quot;https://github.com/not-matthias/&quot;</span><span>, icon =</span><span style="color: #9ECBFF;"> &quot;github&quot;</span><span> },</span></span>
+<span class="giallo-l"><span>]</span></span></code></pre></li>
 </ul>
 <p>Social links will open in a new tab if <code>external_links_target_blank</code> is set to <code>true</code> in the <code>[markdown]</code> section of your config.</p>
 <h2 id="table-of-contents-toc"><a class="zola-anchor" href="#table-of-contents-toc" aria-label="Anchor link for: table-of-contents-toc">Table of Contents (<code>toc</code>)</a></h2>
@@ -357,12 +349,10 @@ index_format = &quot;elasticlunr_json&quot;
 <ul>
 <li>Type: Array of files located in the <code>static</code> directory</li>
 <li>Default: []</li>
-<li>Usage:<pre><code data-lang="toml">stylesheets = [
-  &quot;custom.css&quot;,           # static/custom.css
-  &quot;/css/another.css&quot;      # static/css/another.css
-]
-</code></pre>
-</li>
+<li>Usage:<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>stylesheets = [</span></span>
+<span class="giallo-l"><span style="color: #9ECBFF;">  &quot;custom.css&quot;</span><span>,</span><span style="color: #6A737D;">           # static/custom.css</span></span>
+<span class="giallo-l"><span style="color: #9ECBFF;">  &quot;/css/another.css&quot;</span><span style="color: #6A737D;">      # static/css/another.css</span></span>
+<span class="giallo-l"><span>]</span></span></code></pre></li>
 </ul>
 <h2 id="custom-head-body-html"><a class="zola-anchor" href="#custom-head-body-html" aria-label="Anchor link for: custom-head-body-html">Custom Head / Body HTML</a></h2>
 <p>Allows you to inject arbitrary HTML into <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code> without modifying the theme's templates. This is useful for adding custom <code>&lt;meta&gt;</code> tags, inline styles with Tera logic, third-party scripts, or anything else that <code>stylesheets</code> can't cover.</p>
@@ -375,14 +365,12 @@ index_format = &quot;elasticlunr_json&quot;
 </ul>
 <p>These files are optional. If they don't exist, nothing is injected.</p>
 <p><strong>Example</strong> <code>templates/apollo/head_end.html</code>:</p>
-<pre><code data-lang="html">&lt;style&gt;
-  :root { --accent-color: #ff6600; }
-&lt;/style&gt;
-&lt;meta name=&quot;custom-tag&quot; content=&quot;value&quot; /&gt;
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="html"><span class="giallo-l"><span>&lt;</span><span style="color: #85E89D;">style</span><span>&gt;</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">  :root</span><span> {</span><span style="color: #FFAB70;"> --accent-color</span><span>:</span><span style="color: #79B8FF;"> #ff6600</span><span>; }</span></span>
+<span class="giallo-l"><span>&lt;/</span><span style="color: #85E89D;">style</span><span>&gt;</span></span>
+<span class="giallo-l"><span>&lt;</span><span style="color: #85E89D;">meta</span><span style="color: #B392F0;"> name</span><span>=</span><span style="color: #9ECBFF;">&quot;custom-tag&quot;</span><span style="color: #B392F0;"> content</span><span>=</span><span style="color: #9ECBFF;">&quot;value&quot;</span><span> /&gt;</span></span></code></pre>
 <p><strong>Example</strong> <code>templates/apollo/body_end.html</code>:</p>
-<pre><code data-lang="html">&lt;script src=&quot;https://example.com/widget.js&quot; defer&gt;&lt;/script&gt;
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="html"><span class="giallo-l"><span>&lt;</span><span style="color: #85E89D;">script</span><span style="color: #B392F0;"> src</span><span>=</span><span style="color: #9ECBFF;">&quot;https://example.com/widget.js&quot;</span><span style="color: #B392F0;"> defer</span><span>&gt;&lt;/</span><span style="color: #85E89D;">script</span><span>&gt;</span></span></code></pre>
 <p>Since these are full Tera templates, you can use conditionals, macros, and access <code>config</code>, <code>page</code>, and <code>section</code> variables.</p>
 <h2 id="fancy-code-styling-fancy-code"><a class="zola-anchor" href="#fancy-code-styling-fancy-code" aria-label="Anchor link for: fancy-code-styling-fancy-code">Fancy Code Styling (<code>fancy_code</code>)</a></h2>
 <p>Enables enhanced styling for code blocks.</p>
@@ -402,8 +390,7 @@ index_format = &quot;elasticlunr_json&quot;
 <p>When enabled, you can create expandable/collapsible note sections in your blog posts.</p>
 <h2 id="character-shortcodes"><a class="zola-anchor" href="#character-shortcodes" aria-label="Anchor link for: character-shortcodes">Character Shortcodes</a></h2>
 <p>We support custom character shortcodes for adding dialogue and interactive characters to your blog posts. You can use them via <a rel="external" href="https://www.getzola.org/documentation/content/shortcodes/">shortcodes</a>:</p>
-<pre><code>&amp;#123;% &amp;lt;character name=&quot;character-name&quot;&amp;gt; %&amp;#125;Character dialogue text&amp;#123;% &amp;lt;/character&amp;gt; %&amp;#125;
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="plain"><span class="giallo-l"><span>&amp;#123;% &amp;lt;character name=&quot;character-name&quot;&amp;gt; %&amp;#125;Character dialogue text&amp;#123;% &amp;lt;/character&amp;gt; %&amp;#125;</span></span></code></pre>
 <p>These are the supported parameters:</p>
 <ul>
 <li><code>name</code> (optional): The identifier for the character. Used to determine styling and appearance.</li>
@@ -446,47 +433,41 @@ index_format = &quot;elasticlunr_json&quot;
 <div class="character-content">
 <div class="character-bubble">
 <p>We can even use multiple lines with code:</p>
-<pre><code data-lang="rust">fn main() {
-  println!(&quot;Hey there!&quot;);
-}
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="rust"><span class="giallo-l"><span style="color: #F97583;">fn</span><span style="color: #B392F0;"> main</span><span>() {</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">  println!</span><span>(</span><span style="color: #9ECBFF;">&quot;Hey there!&quot;</span><span>);</span></span>
+<span class="giallo-l"><span>}</span></span></code></pre>
 </div>
 </div>
 </div>
 <h2 id="anchor-links"><a class="zola-anchor" href="#anchor-links" aria-label="Anchor link for: anchor-links">Anchor Links</a></h2>
 <p>You can add anchor links by adding the following to your <code>_index.md</code>:</p>
-<pre><code data-lang="toml">insert_anchor_links = &quot;heading&quot;
-</code></pre>
-<h2 id="taxonomy-sorting"><a class="zola-anchor" href="#taxonomy-sorting" aria-label="Anchor link for: taxonomy-sorting">Taxonomy sorting</a></h2>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>insert_anchor_links =</span><span style="color: #9ECBFF;"> &quot;heading&quot;</span></span></code></pre><h2 id="taxonomy-sorting"><a class="zola-anchor" href="#taxonomy-sorting" aria-label="Anchor link for: taxonomy-sorting">Taxonomy sorting</a></h2>
 <p>You can sort the taxonomies page with the following config:</p>
-<pre><code data-lang="toml">[extra.taxonomies]
-sort_by = &quot;page_count&quot;         # e.g. name, page_count
-reverse = true
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>[</span><span style="color: #B392F0;">extra</span><span>.</span><span style="color: #B392F0;">taxonomies</span><span>]</span></span>
+<span class="giallo-l"><span>sort_by =</span><span style="color: #9ECBFF;"> &quot;page_count&quot;</span><span style="color: #6A737D;">         # e.g. name, page_count</span></span>
+<span class="giallo-l"><span>reverse =</span><span style="color: #79B8FF;"> true</span></span></code></pre>
 <p>The <code>sort_by</code> argument is directly passed to the <code>sort_by</code> function:</p>
-<pre><code data-lang="jinja">{% set sort_by = config.extra.taxonomies.sort_by | default(value=&quot;name&quot;) %}
-{% set terms = terms | default(value=[]) | sort(attribute=sort_by) %}
-
-{% if config.extra.taxonomies.reverse | default(value=false) %}
-    {% set terms = terms | reverse %}
-{% endif %}
-
-{% for term in terms %}
-    &lt;li&gt;
-        &lt;a href=&quot;{{ term.permalink | safe }}&quot;&gt;
-            {{ term.name }} ({{ term.pages | length }} post{{ term.pages | length | pluralize }})
-        &lt;/a&gt;
-    &lt;/li&gt;
-{% endfor %}
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="jinja"><span class="giallo-l"><span style="color: #B392F0;">{%</span><span style="color: #F97583;"> set</span><span> sort_by</span><span style="color: #F97583;"> =</span><span> config.extra.taxonomies.sort_by | default(value</span><span style="color: #F97583;">=</span><span style="color: #9ECBFF;">&quot;name&quot;</span><span>)</span><span style="color: #B392F0;"> %}</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">{%</span><span style="color: #F97583;"> set</span><span> terms</span><span style="color: #F97583;"> =</span><span> terms | default(value</span><span style="color: #F97583;">=</span><span>[]) | sort(attribute</span><span style="color: #F97583;">=</span><span>sort_by)</span><span style="color: #B392F0;"> %}</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #B392F0;">{%</span><span style="color: #F97583;"> if</span><span> config.extra.taxonomies.reverse | default(value</span><span style="color: #F97583;">=</span><span style="color: #79B8FF;">false</span><span>)</span><span style="color: #B392F0;"> %}</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">    {%</span><span style="color: #F97583;"> set</span><span> terms</span><span style="color: #F97583;"> =</span><span> terms | reverse</span><span style="color: #B392F0;"> %}</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">{%</span><span style="color: #F97583;"> endif</span><span style="color: #B392F0;"> %}</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #B392F0;">{%</span><span style="color: #F97583;"> for</span><span> term</span><span style="color: #F97583;"> in</span><span> terms</span><span style="color: #B392F0;"> %}</span></span>
+<span class="giallo-l"><span>    &lt;li&gt;</span></span>
+<span class="giallo-l"><span>        &lt;a href=&quot;</span><span style="color: #FFAB70;">{{</span><span> term</span><span style="color: #FFAB70;">.</span><span>permalink</span><span style="color: #FFAB70;"> |</span><span> safe</span><span style="color: #FFAB70;"> }}</span><span>&quot;&gt;</span></span>
+<span class="giallo-l"><span style="color: #FFAB70;">            {{</span><span> term</span><span style="color: #FFAB70;">.</span><span>name</span><span style="color: #FFAB70;"> }}</span><span> (</span><span style="color: #FFAB70;">{{</span><span> term</span><span style="color: #FFAB70;">.</span><span>pages</span><span style="color: #FFAB70;"> |</span><span> length</span><span style="color: #FFAB70;"> }}</span><span> post</span><span style="color: #FFAB70;">{{</span><span> term</span><span style="color: #FFAB70;">.</span><span>pages</span><span style="color: #FFAB70;"> |</span><span> length</span><span style="color: #FFAB70;"> |</span><span> pluralize</span><span style="color: #FFAB70;"> }}</span><span>)</span></span>
+<span class="giallo-l"><span>        &lt;/a&gt;</span></span>
+<span class="giallo-l"><span>    &lt;/li&gt;</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">{%</span><span style="color: #F97583;"> endfor</span><span style="color: #B392F0;"> %}</span></span></code></pre>
 <p>Possible values include anything within the <a rel="external" href="https://www.getzola.org/documentation/templates/taxonomies/">TaxonomyTerm object</a>:</p>
-<pre><code data-lang="rust">name: String;
-slug: String;
-path: String;
-permalink: String;
-pages: Array&lt;Page&gt;;
-page_count: Number;
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="rust"><span class="giallo-l"><span>name</span><span style="color: #F97583;">:</span><span style="color: #B392F0;"> String</span><span>;</span></span>
+<span class="giallo-l"><span>slug</span><span style="color: #F97583;">:</span><span style="color: #B392F0;"> String</span><span>;</span></span>
+<span class="giallo-l"><span>path</span><span style="color: #F97583;">:</span><span style="color: #B392F0;"> String</span><span>;</span></span>
+<span class="giallo-l"><span>permalink</span><span style="color: #F97583;">:</span><span style="color: #B392F0;"> String</span><span>;</span></span>
+<span class="giallo-l"><span>pages</span><span style="color: #F97583;">:</span><span style="color: #B392F0;"> Array</span><span>&lt;</span><span style="color: #B392F0;">Page</span><span>&gt;;</span></span>
+<span class="giallo-l"><span>page_count</span><span style="color: #F97583;">:</span><span style="color: #B392F0;"> Number</span><span>;</span></span></code></pre>
 <p>Examples:</p>
 <ul>
 <li><code>name</code> to sort by name</li>
@@ -494,28 +475,22 @@ page_count: Number;
 </ul>
 <h2 id="analytics"><a class="zola-anchor" href="#analytics" aria-label="Anchor link for: analytics">Analytics</a></h2>
 <p>Enable or disable analytics tracking:</p>
-<pre><code data-lang="toml">[extra.analytics]
-enabled = false
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>[</span><span style="color: #B392F0;">extra</span><span>.</span><span style="color: #B392F0;">analytics</span><span>]</span></span>
+<span class="giallo-l"><span>enabled =</span><span style="color: #79B8FF;"> false</span></span></code></pre>
 <p>After enabling analytics, configure GoatCounter or Umami.</p>
 <h3 id="goatcounter"><a class="zola-anchor" href="#goatcounter" aria-label="Anchor link for: goatcounter">GoatCounter</a></h3>
 <p>Configure GoatCounter analytics:</p>
-<pre><code data-lang="toml">[extra.analytics.goatcounter]
-user = &quot;your_user&quot;           # Your GoatCounter username
-host = &quot;example.com&quot;         # Optional: Custom host
-</code></pre>
-<h3 id="umami-analytics"><a class="zola-anchor" href="#umami-analytics" aria-label="Anchor link for: umami-analytics">Umami Analytics</a></h3>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>[</span><span style="color: #B392F0;">extra</span><span>.</span><span style="color: #B392F0;">analytics</span><span>.</span><span style="color: #B392F0;">goatcounter</span><span>]</span></span>
+<span class="giallo-l"><span>user =</span><span style="color: #9ECBFF;"> &quot;your_user&quot;</span><span style="color: #6A737D;">           # Your GoatCounter username</span></span>
+<span class="giallo-l"><span>host =</span><span style="color: #9ECBFF;"> &quot;example.com&quot;</span><span style="color: #6A737D;">         # Optional: Custom host</span></span></code></pre><h3 id="umami-analytics"><a class="zola-anchor" href="#umami-analytics" aria-label="Anchor link for: umami-analytics">Umami Analytics</a></h3>
 <p>Configure Umami analytics:</p>
-<pre><code data-lang="toml">[extra.analytics.umami]
-website_id = &quot;43929cd1-1e83....&quot;                    # Your Umami website ID
-host_url = &quot;https://stats.mywebsite.com&quot;            # Optional: Custom host URL
-</code></pre>
-<h2 id="fediverse-author-attribution"><a class="zola-anchor" href="#fediverse-author-attribution" aria-label="Anchor link for: fediverse-author-attribution">Fediverse Author Attribution</a></h2>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>[</span><span style="color: #B392F0;">extra</span><span>.</span><span style="color: #B392F0;">analytics</span><span>.</span><span style="color: #B392F0;">umami</span><span>]</span></span>
+<span class="giallo-l"><span>website_id =</span><span style="color: #9ECBFF;"> &quot;43929cd1-1e83....&quot;</span><span style="color: #6A737D;">                    # Your Umami website ID</span></span>
+<span class="giallo-l"><span>host_url =</span><span style="color: #9ECBFF;"> &quot;https://stats.mywebsite.com&quot;</span><span style="color: #6A737D;">            # Optional: Custom host URL</span></span></code></pre><h2 id="fediverse-author-attribution"><a class="zola-anchor" href="#fediverse-author-attribution" aria-label="Anchor link for: fediverse-author-attribution">Fediverse Author Attribution</a></h2>
 <p>Enable fediverse author attribution to add a meta tag for fediverse platforms:</p>
-<pre><code data-lang="toml">[extra]
-fediverse = true
-fediverse_creator = &quot;@user@instance.social&quot;
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>[</span><span style="color: #B392F0;">extra</span><span>]</span></span>
+<span class="giallo-l"><span>fediverse =</span><span style="color: #79B8FF;"> true</span></span>
+<span class="giallo-l"><span>fediverse_creator =</span><span style="color: #9ECBFF;"> &quot;@user@instance.social&quot;</span></span></code></pre>
 <ul>
 <li>Type: Boolean</li>
 <li>Default: false</li>
@@ -526,10 +501,9 @@ fediverse_creator = &quot;@user@instance.social&quot;
 <h1 id="page-configuration"><a class="zola-anchor" href="#page-configuration" aria-label="Anchor link for: page-configuration">Page configuration</a></h1>
 <h2 id="source-code-repo-view"><a class="zola-anchor" href="#source-code-repo-view" aria-label="Anchor link for: source-code-repo-view">Source code (<code>repo_view</code>)</a></h2>
 <p>Do you want to link to the source code of your blog post? You can turn on the <code>repo_view</code> inside the <code>[extra]</code> section of your blog post.</p>
-<pre><code data-lang="toml">[extra]
-repo_view = true
-repo_url = &quot;https://github.com/not-matthias/apollo/tree/main/content&quot; # Alternatively add the repo here
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>[</span><span style="color: #B392F0;">extra</span><span>]</span></span>
+<span class="giallo-l"><span>repo_view =</span><span style="color: #79B8FF;"> true</span></span>
+<span class="giallo-l"><span>repo_url =</span><span style="color: #9ECBFF;"> &quot;https://github.com/not-matthias/apollo/tree/main/content&quot;</span><span style="color: #6A737D;"> # Alternatively add the repo here</span></span></code></pre>
 <p>The <code>repo_url</code> can be set in the <code>[extra]</code> section or in your <code>config.toml</code>.</p>
 <h2 id="mathjax-mathjax"><a class="zola-anchor" href="#mathjax-mathjax" aria-label="Anchor link for: mathjax-mathjax">MathJax (<code>mathjax</code>)</a></h2>
 <p>Enables MathJax for rendering mathematical equations.</p>
@@ -539,17 +513,15 @@ repo_url = &quot;https://github.com/not-matthias/apollo/tree/main/content&quot; 
 </ul>
 <p>MathJax can be enabled globally (loads on every page) or per-page (loads only where needed).</p>
 <p><strong>Per-page</strong>: add to a post's front matter</p>
-<pre><code data-lang="toml">+++
-title = &quot;My Math Post&quot;
-
-[extra]
-mathjax = true
-+++
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span style="color: #FDAEB7;font-style: italic;">+++</span></span>
+<span class="giallo-l"><span>title =</span><span style="color: #9ECBFF;"> &quot;My Math Post&quot;</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span>[</span><span style="color: #B392F0;">extra</span><span>]</span></span>
+<span class="giallo-l"><span>mathjax =</span><span style="color: #79B8FF;"> true</span></span>
+<span class="giallo-l"><span style="color: #FDAEB7;font-style: italic;">+++</span></span></code></pre>
 <p><strong>Global</strong>: add to your <code>config.toml</code></p>
-<pre><code data-lang="toml">[extra]
-mathjax = true
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>[</span><span style="color: #B392F0;">extra</span><span>]</span></span>
+<span class="giallo-l"><span>mathjax =</span><span style="color: #79B8FF;"> true</span></span></code></pre>
 <p>Inline <code>$...$</code> math is always enabled when MathJax is active.</p>
 <p>See <a rel="external" href="https://github.com/not-matthias/apollo/blob/main/content/posts/math-symbol.md">math-symbol.md</a> for a full example.</p>
 <h2 id="comments-comment"><a class="zola-anchor" href="#comments-comment" aria-label="Anchor link for: comments-comment">Comments (<code>comment</code>)</a></h2>
@@ -562,34 +534,30 @@ mathjax = true
 <p>After making <code>comment = true</code> in <code>[extra]</code> section of you post, save your script from <a rel="external" href="https://giscus.app">Giscus</a> to <code>templates/_giscus_script.html</code>.
 When enabled, this allows readers to leave comments on your blog posts. This feature has to be set for each individual post and is not supported at higher levels.</p>
 <p>Example configuration in <a rel="external" href="https://github.com/not-matthias/apollo/blob/main/content/posts/configuration.md">content/posts/configuration.md</a>:</p>
-<pre><code data-lang="toml">+++
-title = &quot;Configuring Apollo&quot;
-
-[extra]
-comment = true
-+++
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span style="color: #FDAEB7;font-style: italic;">+++</span></span>
+<span class="giallo-l"><span>title =</span><span style="color: #9ECBFF;"> &quot;Configuring Apollo&quot;</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span>[</span><span style="color: #B392F0;">extra</span><span>]</span></span>
+<span class="giallo-l"><span>comment =</span><span style="color: #79B8FF;"> true</span></span>
+<span class="giallo-l"><span style="color: #FDAEB7;font-style: italic;">+++</span></span></code></pre>
 <p>Comments via <a rel="external" href="https://utteranc.es">utterances</a> can be configured in <code>template/_giscus_script.html</code> like this:</p>
-<pre><code data-lang="html">&lt;script src=&quot;https://utteranc.es/client.js&quot;
-        repo=&quot;YOUR_NAME/YOUR_REPO&quot;
-        issue-term=&quot;pathname&quot;
-        theme=&quot;github-light&quot;
-        crossorigin=&quot;anonymous&quot;
-        async&gt;
-&lt;/script&gt;
-</code></pre>
-<h1 id="cards-page"><a class="zola-anchor" href="#cards-page" aria-label="Anchor link for: cards-page">Cards Page</a></h1>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="html"><span class="giallo-l"><span>&lt;</span><span style="color: #85E89D;">script</span><span style="color: #B392F0;"> src</span><span>=</span><span style="color: #9ECBFF;">&quot;https://utteranc.es/client.js&quot;</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">        repo</span><span>=</span><span style="color: #9ECBFF;">&quot;YOUR_NAME/YOUR_REPO&quot;</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">        issue-term</span><span>=</span><span style="color: #9ECBFF;">&quot;pathname&quot;</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">        theme</span><span>=</span><span style="color: #9ECBFF;">&quot;github-light&quot;</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">        crossorigin</span><span>=</span><span style="color: #9ECBFF;">&quot;anonymous&quot;</span></span>
+<span class="giallo-l"><span style="color: #B392F0;">        async</span><span>&gt;</span></span>
+<span class="giallo-l"><span>&lt;/</span><span style="color: #85E89D;">script</span><span>&gt;</span></span></code></pre><h1 id="cards-page"><a class="zola-anchor" href="#cards-page" aria-label="Anchor link for: cards-page">Cards Page</a></h1>
 <p>The <code>cards.html</code> template allows you to display a list of items in a card format. This is ideal for showcasing projects, but can be used for any list of items you want to display in a visually appealing way.</p>
 <p>To create a cards page, you need to create a <code>_index.md</code> file in a content directory (e.g., <code>content/projects</code>). The following front matter is recommended:</p>
-<pre><code data-lang="toml">+++
-title = &quot;Projects&quot;
-sort_by = &quot;weight&quot;
-template = &quot;cards.html&quot;
-[extra]
-cards_columns = 3
-card_media_height = 200
-+++
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span style="color: #FDAEB7;font-style: italic;">+++</span></span>
+<span class="giallo-l"><span>title =</span><span style="color: #9ECBFF;"> &quot;Projects&quot;</span></span>
+<span class="giallo-l"><span>sort_by =</span><span style="color: #9ECBFF;"> &quot;weight&quot;</span></span>
+<span class="giallo-l"><span>template =</span><span style="color: #9ECBFF;"> &quot;cards.html&quot;</span></span>
+<span class="giallo-l"><span>[</span><span style="color: #B392F0;">extra</span><span>]</span></span>
+<span class="giallo-l"><span>cards_columns =</span><span style="color: #79B8FF;"> 3</span></span>
+<span class="giallo-l"><span>card_media_height =</span><span style="color: #79B8FF;"> 200</span></span>
+<span class="giallo-l"><span style="color: #FDAEB7;font-style: italic;">+++</span></span></code></pre>
 <ul>
 <li><code>cards_columns</code>: Set exact number of columns (2, 3, 4) or omit for default 2-column layout</li>
 <li><code>card_media_height</code>: Control the height of card media area in pixels (default: 300)</li>
@@ -615,12 +583,11 @@ card_media_height = 200
 </ul>
 <h1 id="talks-page"><a class="zola-anchor" href="#talks-page" aria-label="Anchor link for: talks-page">Talks Page</a></h1>
 <p>To create a talks page, you need to create a <code>_index.md</code> file in the <code>content/talks</code> directory. The following front matter is recommended:</p>
-<pre><code data-lang="toml">+++
-title = &quot;Talks&quot;
-sort_by = &quot;date&quot;
-template = &quot;talks.html&quot;
-+++
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span style="color: #FDAEB7;font-style: italic;">+++</span></span>
+<span class="giallo-l"><span>title =</span><span style="color: #9ECBFF;"> &quot;Talks&quot;</span></span>
+<span class="giallo-l"><span>sort_by =</span><span style="color: #9ECBFF;"> &quot;date&quot;</span></span>
+<span class="giallo-l"><span>template =</span><span style="color: #9ECBFF;"> &quot;talks.html&quot;</span></span>
+<span class="giallo-l"><span style="color: #FDAEB7;font-style: italic;">+++</span></span></code></pre>
 <p>Each talk should be a separate markdown file in the <code>content/talks</code> directory. The following front matter is supported:</p>
 <ul>
 <li><code>title</code>: The title of the talk.</li>
@@ -649,9 +616,8 @@ template = &quot;talks.html&quot;
 <h2 id="remote-video"><a class="zola-anchor" href="#remote-video" aria-label="Anchor link for: remote-video">Remote Video</a></h2>
 <p>The <code>remote_video</code> front matter parameter allows you to specify a URL to a remote video file that will be displayed as the thumbnail for a page.</p>
 <p>Example usage:</p>
-<pre><code data-lang="toml">[extra]
-remote_video = &quot;https://example.com/videos/demo.mp4&quot;
-</code></pre>
+<pre class="giallo" style="color: #E1E4E8; background-color: #24292E;" ><code data-lang="toml"><span class="giallo-l"><span>[</span><span style="color: #B392F0;">extra</span><span>]</span></span>
+<span class="giallo-l"><span>remote_video =</span><span style="color: #9ECBFF;"> &quot;https://example.com/videos/demo.mp4&quot;</span></span></code></pre>
 <p>The browser will automatically detect the video format, so you don't need to worry about specifying the MIME type.</p>
 
                 </section>

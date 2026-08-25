@@ -64,9 +64,8 @@ graph LR
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Syntax:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;amp;#123;&amp;amp;#123;&amp;amp;lt;note header=&amp;quot;Note!&amp;quot; body=&amp;quot;This blog assumes basic terminal maturity&amp;quot; /&amp;amp;gt;&amp;amp;#125;&amp;amp;#125;
-&amp;amp;#123;&amp;amp;#123;&amp;amp;lt;note clickable=&amp;amp;#123;true&amp;amp;#125; hidden=&amp;amp;#123;true&amp;amp;#125; header=&amp;quot;Quiz!&amp;quot; body=&amp;quot;The answer to the quiz!&amp;quot; /&amp;amp;gt;&amp;amp;#125;&amp;amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #E1E4E8; background-color: #24292E;&quot; &gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;&amp;amp;#123;&amp;amp;#123;&amp;amp;lt;note header=&amp;quot;Note!&amp;quot; body=&amp;quot;This blog assumes basic terminal maturity&amp;quot; /&amp;amp;gt;&amp;amp;#125;&amp;amp;#125;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;&amp;amp;#123;&amp;amp;#123;&amp;amp;lt;note clickable=&amp;amp;#123;true&amp;amp;#125; hidden=&amp;amp;#123;true&amp;amp;#125; header=&amp;quot;Quiz!&amp;quot; body=&amp;quot;The answer to the quiz!&amp;quot; /&amp;amp;gt;&amp;amp;#125;&amp;amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;You can also use some HTML in the text:&lt;/p&gt;
 &lt;div class=&quot;note-container&quot;&gt;
 &lt;div class=&quot;note-header&quot;&gt;
@@ -79,8 +78,7 @@ graph LR
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Literal shortcode:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;amp;#123;&amp;amp;#123;&amp;amp;lt;note header=&amp;quot;Note!&amp;quot; body=&amp;quot;&amp;amp;lt;h1&amp;amp;gt;This blog assumes basic terminal maturity&amp;amp;lt;/h1&amp;amp;gt;&amp;quot; /&amp;amp;gt;&amp;amp;#125;&amp;amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #E1E4E8; background-color: #24292E;&quot; &gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;&amp;amp;#123;&amp;amp;#123;&amp;amp;lt;note header=&amp;quot;Note!&amp;quot; body=&amp;quot;&amp;amp;lt;h1&amp;amp;gt;This blog assumes basic terminal maturity&amp;amp;lt;/h1&amp;amp;gt;&amp;quot; /&amp;amp;gt;&amp;amp;#125;&amp;amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Pretty cool, right?&lt;/p&gt;
 &lt;p&gt;Finally, you can do something like this (hopefully):&lt;/p&gt;
 &lt;div class=&quot;note-container&quot;&gt;
@@ -91,28 +89,26 @@ graph LR
 &lt;/button&gt;
 &lt;div class=&quot;note-content&quot; style=&quot;display: block;&quot;&gt;
 &lt;h1 id=&quot;hello-this-is-markdown-inside-a-note-shortcode&quot;&gt;Hello this is markdown inside a note shortcode&lt;/h1&gt;
-&lt;pre&gt;&lt;code data-lang=&quot;rust&quot;&gt;fn main() {
-    println!(&amp;quot;Hello World&amp;quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #E1E4E8; background-color: #24292E;&quot; &gt;&lt;code data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #F97583;&quot;&gt;fn&lt;/span&gt;&lt;span style=&quot;color: #B392F0;&quot;&gt; main&lt;/span&gt;&lt;span&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #B392F0;&quot;&gt;    println!&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9ECBFF;&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;We can&#39;t call another shortcode inside a shortcode, but this is good enough.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Here is the raw markdown:&lt;/p&gt;
-&lt;pre&gt;&lt;code data-lang=&quot;markdown&quot;&gt;&amp;amp;#123;% &amp;amp;lt;note clickable=&amp;amp;#123;true&amp;amp;#125; header=&amp;quot;Quiz!&amp;quot;&amp;amp;gt; %&amp;amp;#125;
-
-# Hello this is markdown inside a note shortcode
-
-\`\`\`rust
-fn main() {
-    println!(&amp;quot;Hello World&amp;quot;);
-}
-\`\`\`
-
-We can&amp;#39;t call another shortcode inside a shortcode, but this is good enough.
-
-&amp;amp;#123;% &amp;amp;lt;/note&amp;amp;gt; %&amp;amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #E1E4E8; background-color: #24292E;&quot; &gt;&lt;code data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;#123;&lt;/span&gt;&lt;span&gt;% &lt;/span&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;lt;&lt;/span&gt;&lt;span&gt;note clickable=&lt;/span&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;#123;&lt;/span&gt;&lt;span&gt;true&lt;/span&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;#125;&lt;/span&gt;&lt;span&gt; header=&amp;quot;Quiz!&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;gt;&lt;/span&gt;&lt;span&gt; %&lt;/span&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;#125;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #79B8FF;font-weight: bold;&quot;&gt;# Hello this is markdown inside a note shortcode&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;\`\`\`&lt;/span&gt;&lt;span&gt;rust&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;fn main() {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    println!(&amp;quot;Hello World&amp;quot;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;\`\`\`&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;We can&amp;#39;t call another shortcode inside a shortcode, but this is good enough.&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;#123;&lt;/span&gt;&lt;span&gt;% &lt;/span&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;lt;&lt;/span&gt;&lt;span&gt;/note&lt;/span&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;gt;&lt;/span&gt;&lt;span&gt; %&lt;/span&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Finally, we have center&lt;/p&gt;
 &lt;div class=&quot;note-container&quot;&gt;
 &lt;div class=&quot;note-header&quot;&gt;
@@ -124,8 +120,7 @@ We can&amp;#39;t call another shortcode inside a shortcode, but this is good eno
 &lt;p&gt;This is centered text&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;pre&gt;&lt;code data-lang=&quot;markdown&quot;&gt;&amp;amp;#123;&amp;amp;#123;&amp;amp;lt;note center=&amp;amp;#123;true&amp;amp;#125; header=&amp;quot;Centered Text&amp;quot; body=&amp;quot;This is centered text&amp;quot; /&amp;amp;gt;&amp;amp;#125;&amp;amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #E1E4E8; background-color: #24292E;&quot; &gt;&lt;code data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;#123;&amp;amp;#123;&amp;amp;lt;&lt;/span&gt;&lt;span&gt;note center=&lt;/span&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;#123;&lt;/span&gt;&lt;span&gt;true&lt;/span&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;#125;&lt;/span&gt;&lt;span&gt; header=&amp;quot;Centered Text&amp;quot; body=&amp;quot;This is centered text&amp;quot; /&lt;/span&gt;&lt;span style=&quot;color: #79B8FF;&quot;&gt;&amp;amp;gt;&amp;amp;#125;&amp;amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;It works good enough for me!&lt;/p&gt;
 </description>
       </item>
@@ -161,15 +156,11 @@ $$&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet sagittis id consectetur purus ut. In pellentesque massa placerat duis ultricies. Neque laoreet suspendisse interdum consectetur libero id. Justo nec ultrices dui sapien eget mi proin. Nunc consequat interdum varius sit amet mattis vulputate. Sollicitudin tempor id eu nisl nunc mi ipsum. Non odio euismod lacinia at quis. Sit amet nisl suscipit adipiscing. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Sit amet consectetur adipiscing elit pellentesque habitant. Ac placerat vestibulum lectus mauris. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. &lt;a rel=&quot;external&quot; href=&quot;https://www.google.com&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://markdown-here.com/img/icon256.png&quot; alt=&quot;Markdown Logo&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;code-block&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#code-block&quot; aria-label=&quot;Anchor link for: code-block&quot;&gt;Code Block&lt;/a&gt;&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-lang=&quot;rust&quot;&gt;fn main() {
-    println!(&amp;quot;Hello World&amp;quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code data-lang=&quot;rust&quot;&gt;fn main() {
-    println!(&amp;quot;Hello World&amp;quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;ordered-list&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#ordered-list&quot; aria-label=&quot;Anchor link for: ordered-list&quot;&gt;Ordered List&lt;/a&gt;&lt;/h2&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #E1E4E8; background-color: #24292E;&quot; &gt;&lt;code data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #F97583;&quot;&gt;fn&lt;/span&gt;&lt;span style=&quot;color: #B392F0;&quot;&gt; main&lt;/span&gt;&lt;span&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #B392F0;&quot;&gt;    println!&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9ECBFF;&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;pre class=&quot;giallo&quot; style=&quot;color: #E1E4E8; background-color: #24292E;&quot; &gt;&lt;code data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;giallo-ln&quot; style=&quot;color: #444D56;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #F97583;&quot;&gt;fn&lt;/span&gt;&lt;span style=&quot;color: #B392F0;&quot;&gt; main&lt;/span&gt;&lt;span&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot; style=&quot;background-color: #2B3036;&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;giallo-ln&quot; style=&quot;color: #444D56;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;color: #B392F0;&quot;&gt;    println!&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9ECBFF;&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;giallo-ln&quot; style=&quot;color: #444D56;&quot;&gt;3&lt;/span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;ordered-list&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#ordered-list&quot; aria-label=&quot;Anchor link for: ordered-list&quot;&gt;Ordered List&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;First item&lt;/li&gt;
 &lt;li&gt;Second item&lt;/li&gt;

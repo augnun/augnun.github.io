@@ -6,9 +6,6 @@ theme = "apollo"
 
 compile_sass = true
 
-# highlight_code = true
-# highlight_theme = "base16-ocean-dark"
-
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 
@@ -34,3 +31,8 @@ menu = [
 
 author = "Augusto Nunes"
 github = "https://github.com/augnun/"
+
+
+[markdown.highlighting]
+theme = "github-dark"
+error_on_missing_language = true
