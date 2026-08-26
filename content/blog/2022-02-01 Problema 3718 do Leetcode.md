@@ -3,7 +3,7 @@ title = "Problema 3718 do Leetcode"
 date = 2022-02-01
 
 [taxonomies]
-tags = ["programação"]
+tags = ["Leetcode","programação"]
 categories = ["Geral"]
 +++
 
