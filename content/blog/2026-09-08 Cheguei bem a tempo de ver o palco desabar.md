@@ -4,7 +4,7 @@ date = 2026-09-08
 
 [taxonomies]
 tags = ["livros", "música"]
-categorias = ["Livros"]
+categories = ["Livros"]
 +++
 
 Terminei o excelente [Cheguei bem a tempo de ver o palco desabar](https://www.arquipelago.com.br/cheguei-bem-a-tempo-de-ver-o-palco-desabar-ricardo-alexandre), do jornalista Ricardo Alexandre. Eu cheguei a digitar "jornalista musical", mas ele mesmo rejeita o rótulo. 
