@@ -34,7 +34,7 @@ Alguns trechos:
 
 > Quando lançamos um box em CD-ROM reunindo toda a coleção da revista, ficou dolorosamente evidente que as mesmas cinco mil pessoas que compravam os especiais de 15 reais comprariam a revista mensal de dez ou o box de 50 reais. Eram apaixonados como eu ou Adriano, aliens vindos de um tempo que se apagava sobre nós.
 
-- Eu achei um blog que parece ter um grande acervo da Bizz para _download_, não testei: [Revista Bizz](https://revistabizz.blogspot.com/)
+- Eu achei um blog que parece ter um grande acervo da Bizz para _download_, não testei: [Revista Bizz](https://revistabizz.blogspot.com/). No [Internet Archive tem bastante coisa também](https://archive.org/search?query=revista+bizz&tab=all).
 
 
 > Quando lembrei de todos os amigos que militaram ali — Fábio Dias, Fernando Pires, Gustavo Martins, Gustavo Soares, Joana Amador, Jorge Oliveira, Luciano Marsiglia, Marco Bezzi, Paulo Terron, Renata Steffen, Ronaldo Evangelista, Rodolfo França e vários que rodeavam a redação — bateu uma sensação muito
