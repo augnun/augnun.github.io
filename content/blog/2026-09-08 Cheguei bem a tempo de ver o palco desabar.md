@@ -34,7 +34,9 @@ Alguns trechos:
 
 > Quando lançamos um box em CD-ROM reunindo toda a coleção da revista, ficou dolorosamente evidente que as mesmas cinco mil pessoas que compravam os especiais de 15 reais comprariam a revista mensal de dez ou o box de 50 reais. Eram apaixonados como eu ou Adriano, aliens vindos de um tempo que se apagava sobre nós.
 
-- Eu achei um blog que parece ter um grande acervo da Bizz para _download_, não testei: [Revista Bizz](https://revistabizz.blogspot.com/). No [Internet Archive tem bastante coisa também](https://archive.org/search?query=revista+bizz&tab=all).
+- Eu achei um blog que parece ter um grande acervo da Bizz para _download_, não testei: [Revista Bizz](https://revistabizz.blogspot.com/). Encontrei a [(Show)Bizz #140](https://revistabizz.blogspot.com/2021/10/140-marco1997-max-cavalera.html), que me marcou bastante graças à conturbada saída do Max Cavalera do Sepultura, à época.
+
+- No [Internet Archive tem bastante coisa também](https://archive.org/search?query=revista+bizz&tab=all).
 
 
 > Quando lembrei de todos os amigos que militaram ali — Fábio Dias, Fernando Pires, Gustavo Martins, Gustavo Soares, Joana Amador, Jorge Oliveira, Luciano Marsiglia, Marco Bezzi, Paulo Terron, Renata Steffen, Ronaldo Evangelista, Rodolfo França e vários que rodeavam a redação — bateu uma sensação muito
